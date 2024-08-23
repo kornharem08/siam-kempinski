@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "moment-timezone": "^0.5.45",
     "photoswipe": "^5.4.4",
     "vite-tsconfig-paths": "^5.0.1",
     "vue": "^3.4.37"
