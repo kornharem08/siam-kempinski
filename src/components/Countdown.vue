@@ -4,12 +4,13 @@ import { ref, onMounted, onUnmounted } from 'vue';
 
 // End time in Thailand time zone (UTC+7)
 const endTime = '2024-10-31T23:59:59+07:00';
-
+//'2024-10-31T23:59:59+07:00'
 // Refs for countdown display
 const days = ref(0);
 const hours = ref(0);
 const minutes = ref(0);
 const seconds = ref(0);
+const isExpired = ref(false);
 
 // Ref for displaying the target date
 const targetDateShow = ref('');
@@ -30,6 +31,7 @@ const updateTime = () => {
     // If the difference is less than zero, the target date has passed
     if (difference < 0) {
         difference = 0;
+        isExpired.value = true;
     }
 
     // Convert the difference to days, hours, minutes, and seconds
@@ -59,14 +61,17 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div>
-        <p>Bidding starts in:</p>
-        <div class="countdown">
-            <span>{{ days }} days </span>
-            <span>{{ hours }} hours </span>
-            <span>{{ minutes }} mins </span>
-            <span>{{ seconds }} seconds </span>
+    <div class="">
+        <p class="font-kings-caslon text-2xl font-bold mb-2 text-white text-center">Bidding ends in</p>
+        <div class="font-kings-caslon font-bold countdown py-3 flex justify-around items-center  bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[18px] opacity-100" v-if="!isExpired">
+            <span class="font-kings-caslon px-10 text-xl">{{ days }} days </span>
+            <span class="font-kings-caslon text-xl border-l-2 border-r-2 border-[#E5E5E5] px-10">{{ hours }} hours </span>
+            <span class="font-kings-caslon text-xl px-10">{{ minutes }} mins </span>
+            <!-- <span class="font-kings-caslon text-xl border-l-2 border-[#E5E5E5] px-10">{{ seconds }} seconds </span> -->
         </div>
-        <p>Target Date (in your timezone): {{ targetDateShow }}</p>
+        <div v-else class="font-kings-caslon font-bold countdown py-3 flex justify-around items-center  bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[18px] opacity-100">
+            <span class="font-kings-caslon px-44 text-xl">Expired</span>
+        </div>
+        <!-- <p>Target Date (in your timezone): {{ targetDateShow }}</p> -->
     </div>
 </template>

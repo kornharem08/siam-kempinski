@@ -90,7 +90,7 @@ export const places = [
           details: "For a three-night stay in a Stamford Suite inclusive of breakfast for two persons. Valued at THB 80,378.",
           description: " At the heart of an integrated lifestyle hub, this harmonious blend of heritage and modern luxury features Arcade@The Capitol Kempinski, legendary Capitol Theatre, and Capitol Singapore mall.",
           link: "https://www.kempinski.com/en/the-capitol-singapore",
-          currentBid: 0,
+          currentBid: 65000,
           facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614524694206039",
           dataSource: [
             {

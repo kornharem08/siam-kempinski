@@ -28,11 +28,10 @@ const sectionTitleUrl = computed(() => new URL(props.sectionTitle, import.meta.u
 </script>
 
 <template>
-  <div class="sm:px-10 px-2">
-    
-    <img class="w-auto mx-auto mb-5 h-[28px] sm:h-[36px]" :src="sectionTitleUrl" />
+  <div class="xl:px-6 px-2">
+    <img class="w-auto mx-auto m-10 h-[28px] sm:h-[36px]" :src="sectionTitleUrl" />
     <div class="flex flex-wrap justify-center">
-      <div v-for="(card, index) in props.cards" :key="index" class="w-full lg:w-1/2 px-3 mb-6">
+      <div v-for="(card, index) in props.cards" :key="index" class="w-full xl:w-1/2 px-4 mb-6">
         <Card :id="card.id" :image="card.image" :facebookLink="card.facebookLink" :link="card.link"
           :details="card.details" :title="card.title" :description="card.description" :currentBid="card.currentBid" :dataSource="card.dataSource" />
       </div>
