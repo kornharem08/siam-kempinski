@@ -13,9 +13,6 @@ const props = defineProps({
   facebookLink: { type: String, required: true },
   dataSource: { type: Array as PropType<Array<{ src: string; width: number; height: number }>>, required: true }
 })
-// const list = {
-//     dataSource: props.dataSource
-// }
 
 const options: any = {
   dataSource: props.dataSource,
