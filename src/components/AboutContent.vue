@@ -36,7 +36,7 @@ const backgroundImageStyle = computed(() => ({
             <span class="italic underline text-lg text-[#7C7C7C]">close</span>
         </div>
         <div class="relative z-10">
-            <section class="text-gray-600 body-font">
+            <section class="text-gray-600 body-font pb-10 lg:pb-0">
                 <div class="lg:px-6 px-0 flex flex-col lg:flex-row justify-center items-center"
                     v-show="isShowAboutContent">
                     <div class="flex flex-col lg:flex-row lg:w-1/2 sm:w-full w-full overflow-hidden lg:mt-6 sm:mt-0">

@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import CardSection from "./components/CardSection.vue";
-import Countdown from "./components/Countdown.vue";
 import AboutContent from "./components/AboutContent.vue";
+import AuctionInfo from "./components/AuctionInfo.vue";
 import IntroductionSection from "./components/IntroductionSection.vue";
 import HeroSection from "./components/HeroSection.vue";
+import FooterContent from "./components/FooterContent.vue";
+import BackToTop from "./components/BackToTop.vue";
 import { places as initialPlaces } from "./places";
 
 interface priceUpdate {
@@ -92,9 +94,13 @@ function updatePrice() {
   <HeroSection />
   <IntroductionSection />
   <AboutContent />
+  <AuctionInfo/>
   <template v-for="itmes in places">
     <CardSection :sectionTitle="itmes.titleImage" :cards="itmes.items" />
   </template>
+  <BackToTop/>
+  <FooterContent/>
+
 
   <!-- <div>
     <button @click="updatePrice()">update Price</button>

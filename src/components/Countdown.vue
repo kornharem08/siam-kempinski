@@ -62,11 +62,11 @@ onUnmounted(() => {
 
 <template>
     <div class="">
-        <p class="font-kings-caslon text-2xl font-bold mb-2 text-white text-center">Bidding ends in</p>
+        <p class="font-kings-caslon lg:text-2xl text-xl font-bold mb-2 lg:text-white text-[#a58d7b] text-center">Bidding ends in</p>
         <div class="font-kings-caslon font-bold countdown py-3 flex justify-around items-center  bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[18px] opacity-100" v-if="!isExpired">
-            <span class="font-kings-caslon px-10 text-xl">{{ days }} days </span>
-            <span class="font-kings-caslon text-xl border-l-2 border-r-2 border-[#E5E5E5] px-10">{{ hours }} hours </span>
-            <span class="font-kings-caslon text-xl px-10">{{ minutes }} mins </span>
+            <span class="font-kings-caslon px-10 xl:text-xl md:text-lg text-sm">{{ days }} days </span>
+            <span class="font-kings-caslon xl:text-xl md:text-lg text-sm border-l-2 border-r-2 border-[#E5E5E5] px-10">{{ hours }} hours </span>
+            <span class="font-kings-caslon xl:text-xl md:text-lg text-sm xs:text-xs px-10">{{ minutes }} mins </span>
             <!-- <span class="font-kings-caslon text-xl border-l-2 border-[#E5E5E5] px-10">{{ seconds }} seconds </span> -->
         </div>
         <div v-else class="font-kings-caslon font-bold countdown py-3 flex justify-around items-center  bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[18px] opacity-100">
