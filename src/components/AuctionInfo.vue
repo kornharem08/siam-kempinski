@@ -1,6 +1,6 @@
 <!-- AuctionInfo.vue -->
 <template>
-  <div class="lg:px-40 py-10 px-10 bg-[#a58d7b] space-y-4 text-center">
+  <div class="lg:px-40 py-10 px-10 bg-[#C6B4A6] space-y-6 text-center">
     <p class="lg:text-llg text-base text-white px-6 lg:px-0">
       The bidding process is scheduled to commence on 27 September 2024 at 00:01
       hrs. Bangkok time (GMT+7) and will conclude on 17 October 2024 at 24:00
@@ -26,7 +26,7 @@
       provide details on how to proceed with payment processing. PLEASE DO NOT
       TRANSFER MONEY VIA FACEBOOK.
     </p>
-    <div class="hidden justify-center mt-8 lg:flex">
+    <div class="hidden justify-center mt-12 lg:flex">
       <Countdown />
     </div>
   </div>

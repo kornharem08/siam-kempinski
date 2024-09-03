@@ -7,9 +7,9 @@ function toggleContent() {
     isShowAboutContent.value = !isShowAboutContent.value;
 }
 
-const aboutMeImage = computed(() => new URL('@/assets/img/About-BE-Health-02.jpg', import.meta.url).href);
-const aboutMeImageContent1 = computed(() => new URL('@/assets/img/About-BE-Health-01.jpg', import.meta.url).href);
-const aboutMeImageContent2 = computed(() => new URL('@/assets/img/About-BE-Health-03.jpg', import.meta.url).href);
+const aboutMeImage = computed(() => new URL('@/assets/img/Be_Health/Autistic_Learning Center_02.jpg', import.meta.url).href);
+const aboutMeImageContent1 = computed(() => new URL('@/assets/img/Be_Health/01_Autistic Application Series_04.jpg', import.meta.url).href);
+const aboutMeImageContent2 = computed(() => new URL('@/assets/img/Be_Health/01_Autistic Application Series_07.jpg', import.meta.url).href);
 
 const contentClass = computed(() =>
     isShowAboutContent.value ? 'lg:h-[512px] h-full' : 'h-[251px]'
@@ -40,11 +40,11 @@ const backgroundImageStyle = computed(() => ({
                 <div class="lg:px-6 px-0 flex flex-col lg:flex-row justify-center items-center"
                     v-show="isShowAboutContent">
                     <div class="flex flex-col lg:flex-row lg:w-1/2 sm:w-full w-full overflow-hidden lg:mt-6 sm:mt-0">
-                        <div class="flex-1 lg:pr-2">
+                        <div class="flex-1 ">
                             <img class="object-cover object-center w-full h-full" :src="aboutMeImageContent1"
                                 alt="stats" />
                         </div>
-                        <div class="flex-1 lg:pl-2 mt-4 lg:mt-0">
+                        <div class="flex-1  mt-4 lg:mt-0">
                             <img class="object-cover object-center w-full h-full" :src="aboutMeImageContent2"
                                 alt="stats" />
                         </div>
