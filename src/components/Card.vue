@@ -59,29 +59,29 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="border border-gray-200 rounded-lg overflow-hidden">
+  <div class="border border-gray-200 rounded-xl overflow-hidden">
       <div
-    class="flex flex-row items-stretch bg-white  "
+    class="flex lg:flex-row flex-col items-stretch bg-white  "
   >
     <img
-      class="object-cover w-1/2 rounded-l-lg max-h-[394px]" 
+      class="object-cover lg:w-1/2 w-full rounded-lg lg:rounded-l-xl lg:rounded-r-none  lg:max-h-[394px] max-h-[191px] md:max-h-[280px]" 
       :src="images"
       @click.native="openPhotoSwipe"
       @mouseover="startSlideShow"
       @mouseleave="stopSlideShow"
     />
-    <div class="flex flex-col justify-between lg:p-4 p-2 leading-normal w-1/2">
-      <div class="min-h-[364px] ">
-        <h2 class="lg:text-lg text-base font-bold text-[#5C5C5C] mb-[20px]">
+    <div class="flex flex-col justify-between lg:p-4 p-2 leading-normal lg:w-1/2 w-full">
+      <div class="lg:min-h-[364px]  text-center lg:text-left ">
+        <h2 class="lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C]   mb-2 lg:mb-[20px]">
           {{ props.title }}
         </h2>
-        <p class="text-[#5C5C5C] mb-4 lg:text-lg text-base">
+        <p class="text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs">
           {{ props.details }}
         </p>
-        <p class="text-[#5C5C5C] mb-4 lg:text-lg text-base">
+        <p class="text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs">
           {{ props.description }}
         </p>
-        <p class="text-[#5C5C5C] mb-4 lg:text-lg text-base">
+        <p class="text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs">
           More info:
           <a :href="props.link" target="_blank" class="break-all">{{
             props.link
@@ -91,15 +91,15 @@ onBeforeUnmount(() => {
     </div>
   </div>
   <div class="flex justify-center items-center pt-[45px] pb-[30px]">
-      <div class="flex w-full gap-5">
-        <div class="flex w-1/2 items-center justify-end">
-          <p class="text-green-500 font-bold lg:text-lg text-base">
+      <div class="flex w-full gap-5 px-3">
+        <div class="flex w-1/2 items-center lg:justify-end justify-start">
+          <p class="text-green-500 font-bold lg:text-lg md:text-base text-sm">
             Current Bid: THB {{ props.currentBid.toLocaleString() }}
           </p>
         </div>
-        <div class="flex w-1/2 justify-start">
+        <div class="flex w-1/2 lg:justify-start justify-end">
           <button
-            class="bg-[#a58d7b] text-white lg:px-6 lg:py-2 px-1 py-1 sm:px-6 sm:py-2 rounded-full lg:text-lg text-base"
+            class="bg-[#B4A090] text-white lg:px-6 lg:py-2 px-4 py-2 sm:px-6 sm:py-2 rounded-full lg:text-lg md:text-base text-sm"
           >
             Join Bidding
           </button>

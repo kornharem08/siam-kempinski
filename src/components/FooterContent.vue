@@ -2,10 +2,10 @@
 </script>
 
 <template>
-    <div class="text-center flex justify-center flex-col lg:text-lg text-base mb-20" style="padding-bottom: 20px; color: #5f5f5f">
+    <div class="text-center flex justify-center flex-col lg:text-lg md:text-base text-sm mb-20" style="padding-bottom: 20px; color: #5f5f5f">
         <!-- Centered hr element -->
         <div class="flex justify-center py-20">
-            <hr class="w-[375px] border-[4px] border-[#A58D7B] opacity-55 rounded-xl">
+            <hr class="lg:w-[375px] w-[200px] border-[2px] lg:border-[4px] border-[#A58D7B] opacity-55 rounded-xl">
         </div>
 
         <div class="mb-7">

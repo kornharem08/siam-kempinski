@@ -8,6 +8,7 @@ export default {
         'kings-caslon': ['"Kings Caslon Trial"', 'serif'], // Adding your custom font
       },
       fontSize: {
+        xs: ['12px', '15px'],
         sm: ['14px', '20px'],
         base: ['16px', '20px'],
         lg: ['18px', '22px'],

@@ -86,10 +86,10 @@ onUnmounted(() => {
 
 <template>
     <div class="">
-        <p v-if="isNotStarted" class="font-kings-caslon lg:text-2xl text-xl font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
+        <p v-if="isNotStarted" class="font-kings-caslon lg:text-2xl md:text-base text-sm font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
             Bidding Starts In
         </p>
-        <p v-else-if="!isExpired" class="font-kings-caslon lg:text-2xl text-xl font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
+        <p v-else-if="!isExpired" class="font-kings-caslon lg:text-2xl md:text-base text-sm font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
             Bidding Ends In
         </p>
         <div v-if="!isExpired" class="font-kings-caslon font-bold countdown py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[18px] opacity-100">
@@ -99,7 +99,7 @@ onUnmounted(() => {
             <!-- <span class="font-kings-caslon text-xl border-l-2 border-[#E5E5E5] px-10">{{ seconds }} seconds </span> -->
         </div>
         <div v-else-if="isExpired" class="font-kings-caslon font-bold countdown py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[18px] opacity-100">
-            <span class="font-kings-caslon px-44 text-xl">Expired</span>
+            <span class="font-kings-caslon px-44 lg:text-2xl md:text-base text-sm">Expired</span>
         </div>
     </div>
 </template>

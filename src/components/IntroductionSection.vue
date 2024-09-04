@@ -13,7 +13,7 @@ import Countdown from "./Countdown.vue";
       <Countdown />
     </div>
     <div
-      class="py-10 px-10 lg:py-20 lg:px-40 lg:text-xl text-base text-center rounded-t-[32px]"
+      class="py-10 px-6 xl:py-20 xl:px-40 lg:text-xl md:text-base text-sm text-center rounded-t-[32px]"
     >
       BE Health is Kempinski's flagship global corporate social responsibility
       programme, dedicated to fostering local community healthcare support

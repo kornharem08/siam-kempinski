@@ -44,14 +44,14 @@ const backgroundImageStyle = computed(() => ({
                             <img class="object-cover object-center w-full h-full" :src="aboutMeImageContent1"
                                 alt="stats" />
                         </div>
-                        <div class="flex-1  mt-4 lg:mt-0">
+                        <div class="flex-1  mt-4 lg:mt-0 lg:block hidden">
                             <img class="object-cover object-center w-full h-full" :src="aboutMeImageContent2"
                                 alt="stats" />
                         </div>
                     </div>
-                    <div class="flex flex-col lg:w-1/2 lg:pl-10 space-y-4 lg:pr-16 pr-2 mt-6 lg:mt-0 ">
+                    <div class="flex flex-col lg:w-1/2 lg:pl-10 space-y-4 xl:pr-8 pr-2 mt-6 lg:mt-0 ">
                         <div class="font-bold lg:text-xl text-lg italic px-6 lg:px-0 ">About BE Health</div>
-                        <p class="lg:text-lg text-base text-[#5C5C5C] px-6 lg:px-0 ">
+                        <p class="xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0 ">
                             BE Health is a global corporate social responsibility programme spearheaded by Kempinski
                             Hotels, dedicated to empowering communities by addressing their specific health needs. This
                             initiative collaborates closely with individual hotels to develop tailored health
@@ -59,7 +59,7 @@ const backgroundImageStyle = computed(() => ({
                             evaluation. BE Health operates as an independent legal entity under Swiss law, with its
                             headquarters in Geneva, Switzerland. 
                         </p>
-                        <p class="lg:text-lg text-base text-[#5C5C5C] px-6 lg:px-0 ">
+                        <p class="xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0 ">
                             In Bangkok, Siam Kempinski Hotel Bangkok and Sindhorn
                             Kempinski Hotel Bangkok have embraced this programme by partnering with the Autistic Thai
                             Foundation. Through this collaboration, the hotels are committed to enhancing the health and
