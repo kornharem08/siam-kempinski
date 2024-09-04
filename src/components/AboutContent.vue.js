@@ -45,14 +45,14 @@ function __VLS_template() {
     __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent1)), alt: ("stats"), });
     // @ts-ignore
     [vShow, isShowAboutContent, aboutMeImageContent1,];
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex-1  mt-4 lg:mt-0") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex-1  mt-4 lg:mt-0 lg:block hidden") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent2)), alt: ("stats"), });
     // @ts-ignore
     [aboutMeImageContent2,];
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-col lg:w-1/2 lg:pl-10 space-y-4 lg:pr-16 pr-2 mt-6 lg:mt-0 ") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-col lg:w-1/2 lg:pl-10 space-y-4 xl:pr-8 pr-2 mt-6 lg:mt-0 ") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("font-bold lg:text-xl text-lg italic px-6 lg:px-0 ") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("lg:text-lg text-base text-[#5C5C5C] px-6 lg:px-0 ") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("lg:text-lg text-base text-[#5C5C5C] px-6 lg:px-0 ") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0 ") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0 ") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)({ ...{ onClick: (__VLS_ctx.toggleContent) }, ...{ class: ("px-12 py-4 lg:text-lg text-base italic bg-white bg-no-repeat bg-clip-padding shadow-custom rounded-[36px]") }, });
     __VLS_directiveFunction(__VLS_ctx.vShow)((!__VLS_ctx.isShowAboutContent));
     // @ts-ignore
@@ -119,6 +119,8 @@ function __VLS_template() {
         __VLS_styleScopedClasses['flex-1'];
         __VLS_styleScopedClasses['mt-4'];
         __VLS_styleScopedClasses['lg:mt-0'];
+        __VLS_styleScopedClasses['lg:block'];
+        __VLS_styleScopedClasses['hidden'];
         __VLS_styleScopedClasses['object-cover'];
         __VLS_styleScopedClasses['object-center'];
         __VLS_styleScopedClasses['w-full'];
@@ -128,7 +130,7 @@ function __VLS_template() {
         __VLS_styleScopedClasses['lg:w-1/2'];
         __VLS_styleScopedClasses['lg:pl-10'];
         __VLS_styleScopedClasses['space-y-4'];
-        __VLS_styleScopedClasses['lg:pr-16'];
+        __VLS_styleScopedClasses['xl:pr-8'];
         __VLS_styleScopedClasses['pr-2'];
         __VLS_styleScopedClasses['mt-6'];
         __VLS_styleScopedClasses['lg:mt-0'];
@@ -138,13 +140,15 @@ function __VLS_template() {
         __VLS_styleScopedClasses['italic'];
         __VLS_styleScopedClasses['px-6'];
         __VLS_styleScopedClasses['lg:px-0'];
-        __VLS_styleScopedClasses['lg:text-lg'];
-        __VLS_styleScopedClasses['text-base'];
+        __VLS_styleScopedClasses['xl:text-lg'];
+        __VLS_styleScopedClasses['md:text-base'];
+        __VLS_styleScopedClasses['text-sm'];
         __VLS_styleScopedClasses['text-[#5C5C5C]'];
         __VLS_styleScopedClasses['px-6'];
         __VLS_styleScopedClasses['lg:px-0'];
-        __VLS_styleScopedClasses['lg:text-lg'];
-        __VLS_styleScopedClasses['text-base'];
+        __VLS_styleScopedClasses['xl:text-lg'];
+        __VLS_styleScopedClasses['md:text-base'];
+        __VLS_styleScopedClasses['text-sm'];
         __VLS_styleScopedClasses['text-[#5C5C5C]'];
         __VLS_styleScopedClasses['px-6'];
         __VLS_styleScopedClasses['lg:px-0'];

@@ -23,7 +23,7 @@ function __VLS_template() {
     const __VLS_1 = __VLS_0({}, ...__VLS_functionalComponentArgsRest(__VLS_0));
     ({}({}));
     const __VLS_4 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(Countdown, __VLS_1));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("py-10 px-10 lg:py-20 lg:px-40 lg:text-xl text-base text-center rounded-t-[32px]") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("py-10 px-6 xl:py-20 xl:px-40 lg:text-xl md:text-base text-sm text-center rounded-t-[32px]") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.br)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.br)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.br)({});
@@ -43,11 +43,12 @@ function __VLS_template() {
         __VLS_styleScopedClasses['mt-8'];
         __VLS_styleScopedClasses['flex'];
         __VLS_styleScopedClasses['py-10'];
-        __VLS_styleScopedClasses['px-10'];
-        __VLS_styleScopedClasses['lg:py-20'];
-        __VLS_styleScopedClasses['lg:px-40'];
+        __VLS_styleScopedClasses['px-6'];
+        __VLS_styleScopedClasses['xl:py-20'];
+        __VLS_styleScopedClasses['xl:px-40'];
         __VLS_styleScopedClasses['lg:text-xl'];
-        __VLS_styleScopedClasses['text-base'];
+        __VLS_styleScopedClasses['md:text-base'];
+        __VLS_styleScopedClasses['text-sm'];
         __VLS_styleScopedClasses['text-center'];
         __VLS_styleScopedClasses['rounded-t-[32px]'];
     }
