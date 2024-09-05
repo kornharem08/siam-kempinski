@@ -1,13 +1,14 @@
-import { computed, ref } from 'vue';
+import { computed, ref } from "vue";
 const { defineProps, defineSlots, defineEmits, defineExpose, defineModel, defineOptions, withDefaults, } = await import('vue');
+// Import Swiper styles
 const isShowAboutContent = ref(false);
 function toggleContent() {
     isShowAboutContent.value = !isShowAboutContent.value;
 }
-const aboutMeImage = computed(() => new URL('@/assets/img/Be_Health/Autistic_Learning Center_02.jpg', import.meta.url).href);
-const aboutMeImageContent1 = computed(() => new URL('@/assets/img/Be_Health/01_Autistic Application Series_04.jpg', import.meta.url).href);
-const aboutMeImageContent2 = computed(() => new URL('@/assets/img/Be_Health/01_Autistic Application Series_07.jpg', import.meta.url).href);
-const contentClass = computed(() => isShowAboutContent.value ? 'lg:h-[512px] h-full' : 'h-[251px]');
+const aboutMeImage = computed(() => new URL("@/assets/img/Be_Health/Autistic_Learning Center_02.jpg", import.meta.url).href);
+const aboutMeImageContent1 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_04.jpg", import.meta.url).href);
+const aboutMeImageContent2 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_07.jpg", import.meta.url).href);
+const contentClass = computed(() => isShowAboutContent.value ? "lg:h-[512px] h-full" : "h-[251px]");
 const backgroundImageStyle = computed(() => ({
     backgroundImage: `url(${aboutMeImage.value})`,
     opacity: isShowAboutContent.value ? 0.3 : 1,
@@ -38,22 +39,23 @@ function __VLS_template() {
     __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("italic underline text-lg text-[#7C7C7C]") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("relative z-10") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.section, __VLS_intrinsicElements.section)({ ...{ class: ("text-gray-600 body-font pb-10 lg:pb-0") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("lg:px-6 px-0 flex flex-col lg:flex-row justify-center items-center") }, });
-    __VLS_directiveFunction(__VLS_ctx.vShow)((__VLS_ctx.isShowAboutContent));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-col lg:flex-row lg:w-1/2 sm:w-full w-full overflow-hidden lg:mt-6 sm:mt-0") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex-1 ") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent1)), alt: ("stats"), });
-    // @ts-ignore
-    [vShow, isShowAboutContent, aboutMeImageContent1,];
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex-1  mt-4 lg:mt-0 lg:block hidden") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent2)), alt: ("stats"), });
-    // @ts-ignore
-    [aboutMeImageContent2,];
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-col lg:w-1/2 lg:pl-10 space-y-4 xl:pr-8 pr-2 mt-6 lg:mt-0 ") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("font-bold lg:text-xl text-lg italic px-6 lg:px-0 ") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0 ") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0 ") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)({ ...{ onClick: (__VLS_ctx.toggleContent) }, ...{ class: ("px-12 py-4 lg:text-lg text-base italic bg-white bg-no-repeat bg-clip-padding shadow-custom rounded-[36px]") }, });
+    if (__VLS_ctx.isShowAboutContent) {
+        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("lg:px-6 px-0 flex flex-col lg:flex-row justify-center items-center") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-col lg:flex-row lg:w-1/2 sm:w-full w-full overflow-hidden lg:mt-6 sm:mt-0") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex-1") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent1)), alt: ("stats"), });
+        // @ts-ignore
+        [isShowAboutContent, aboutMeImageContent1,];
+        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex-1 mt-4 lg:mt-0 lg:block hidden") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent2)), alt: ("stats"), });
+        // @ts-ignore
+        [aboutMeImageContent2,];
+        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-col lg:w-1/2 lg:pl-10 space-y-4 xl:pr-8 pr-2 mt-6 lg:mt-0") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("font-bold lg:text-xl text-lg italic px-6 lg:px-0") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0") }, });
+    }
+    __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)({ ...{ onClick: (__VLS_ctx.toggleContent) }, ...{ class: ("lg:px-12 px-6 py-3 lg:text-lg md:text-base text-xs italic bg-white bg-no-repeat bg-clip-padding shadow-[0px_3px_6px_rgba(0,0,0,0.16)] rounded-[36px]") }, });
     __VLS_directiveFunction(__VLS_ctx.vShow)((!__VLS_ctx.isShowAboutContent));
     // @ts-ignore
     [toggleContent, vShow, isShowAboutContent,];
@@ -152,15 +154,17 @@ function __VLS_template() {
         __VLS_styleScopedClasses['text-[#5C5C5C]'];
         __VLS_styleScopedClasses['px-6'];
         __VLS_styleScopedClasses['lg:px-0'];
-        __VLS_styleScopedClasses['px-12'];
-        __VLS_styleScopedClasses['py-4'];
+        __VLS_styleScopedClasses['lg:px-12'];
+        __VLS_styleScopedClasses['px-6'];
+        __VLS_styleScopedClasses['py-3'];
         __VLS_styleScopedClasses['lg:text-lg'];
-        __VLS_styleScopedClasses['text-base'];
+        __VLS_styleScopedClasses['md:text-base'];
+        __VLS_styleScopedClasses['text-xs'];
         __VLS_styleScopedClasses['italic'];
         __VLS_styleScopedClasses['bg-white'];
         __VLS_styleScopedClasses['bg-no-repeat'];
         __VLS_styleScopedClasses['bg-clip-padding'];
-        __VLS_styleScopedClasses['shadow-custom'];
+        __VLS_styleScopedClasses['shadow-[0px_3px_6px_rgba(0,0,0,0.16)]'];
         __VLS_styleScopedClasses['rounded-[36px]'];
     }
     var __VLS_slots;

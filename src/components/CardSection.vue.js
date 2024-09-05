@@ -37,9 +37,9 @@ function __VLS_template() {
         // @ts-ignore
         [Card,];
         // @ts-ignore
-        const __VLS_0 = __VLS_asFunctionalComponent(Card, new Card({ id: ((card.id)), image: ((card.image)), facebookLink: ((card.facebookLink)), link: ((card.link)), details: ((card.details)), title: ((card.title)), description: ((card.description)), currentBid: ((card.currentBid)), dataSource: ((card.dataSource)), }));
-        const __VLS_1 = __VLS_0({ id: ((card.id)), image: ((card.image)), facebookLink: ((card.facebookLink)), link: ((card.link)), details: ((card.details)), title: ((card.title)), description: ((card.description)), currentBid: ((card.currentBid)), dataSource: ((card.dataSource)), }, ...__VLS_functionalComponentArgsRest(__VLS_0));
-        ({}({ id: ((card.id)), image: ((card.image)), facebookLink: ((card.facebookLink)), link: ((card.link)), details: ((card.details)), title: ((card.title)), description: ((card.description)), currentBid: ((card.currentBid)), dataSource: ((card.dataSource)), }));
+        const __VLS_0 = __VLS_asFunctionalComponent(Card, new Card({ id: ((card.id)), image: ((card.image)), facebookLink: ((card.facebookLink)), link: ((card.link)), country: ((card.country)), details: ((card.details)), title: ((card.title)), description: ((card.description)), currentBid: ((card.currentBid)), dataSource: ((card.dataSource)), }));
+        const __VLS_1 = __VLS_0({ id: ((card.id)), image: ((card.image)), facebookLink: ((card.facebookLink)), link: ((card.link)), country: ((card.country)), details: ((card.details)), title: ((card.title)), description: ((card.description)), currentBid: ((card.currentBid)), dataSource: ((card.dataSource)), }, ...__VLS_functionalComponentArgsRest(__VLS_0));
+        ({}({ id: ((card.id)), image: ((card.image)), facebookLink: ((card.facebookLink)), link: ((card.link)), country: ((card.country)), details: ((card.details)), title: ((card.title)), description: ((card.description)), currentBid: ((card.currentBid)), dataSource: ((card.dataSource)), }));
         const __VLS_4 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(Card, __VLS_1));
     }
     if (typeof __VLS_styleScopedClasses === 'object' && !Array.isArray(__VLS_styleScopedClasses)) {

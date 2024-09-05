@@ -15,6 +15,7 @@ interface CardType {
   link: string;
   currentBid: number;
   facebookLink: string;
+  country: string;
   dataSource: ImageSource[];
 }
 const props = defineProps({
@@ -33,6 +34,7 @@ const sectionTitleUrl = computed(() => new URL(props.sectionTitle, import.meta.u
     <div class="flex flex-wrap justify-center">
       <div v-for="(card, index) in props.cards" :key="index" class="w-full xl:w-1/2 px-4 mb-6">
         <Card :id="card.id" :image="card.image" :facebookLink="card.facebookLink" :link="card.link"
+        :country="card.country"
           :details="card.details" :title="card.title" :description="card.description" :currentBid="card.currentBid" :dataSource="card.dataSource" />
       </div>
     </div>

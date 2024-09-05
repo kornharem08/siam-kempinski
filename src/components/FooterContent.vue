@@ -8,23 +8,24 @@
             <hr class="lg:w-[375px] w-[200px] border-[2px] lg:border-[4px] border-[#A58D7B] opacity-55 rounded-xl">
         </div>
 
-        <div class="mb-7">
+        <div class="mb-7 text-xs lg:text-lg">
             For more information about BE Health Online Auction, please contact<br />
             <br />
             Siam Kempinski Hotel Bangkok<br />
-            T: +66 (0)2 162 9000 | E: pr.siambangkok@kempinski.com<br />
-            Kempinski.com<br />
+            T: <a href="tel:+6621629000" class="">+66 (0)2 162 9000</a> | 
+            E: <a href="mailto:pr.siambangkok@kempinski.com" class="">pr.siambangkok@kempinski.com</a><br />
+            <a href="https://www.kempinski.com" target="_blank" class="">Kempinski.com</a><br />
             <br />
             Organised by
         </div>
 
         <div class="flex justify-center">
-            <img src="@/assets/img/siam-kempinski-hotel-bangkok-logo.svg" class="w-[160px] h-[160px]" style="margin-right: 12px;" />
-            <img src="@/assets/img/sindhorn-kempinski-hotel-bangkok-logo.svg" class="w-[160px] h-[160px]" style="margin-left: 12px;" />
+            <img src="@/assets/img/siam-kempinski-hotel-bangkok-logo.svg" class="lg:w-[160px] lg:h-[160px] w-[60px] h-[60px]" style="margin-right: 12px;" />
+            <img src="@/assets/img/sindhorn-kempinski-hotel-bangkok-logo.svg" class="lg:w-[160px] lg:h-[160px] w-[60px] h-[60px]" style="margin-left: 12px;" />
         </div>
 
         <div class="flex justify-center mt-6 ">
-           <img src="@/assets/img/kempinski-logo.png" class="w-[198px] h-[78px]"/> 
+           <img src="@/assets/img/kempinski-logo.png" class="lg:w-[198px] lg:h-[78px] w-[80px] h-[30px]"/> 
         </div>
     </div>
 </template>

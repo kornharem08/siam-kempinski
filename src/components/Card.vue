@@ -7,6 +7,7 @@ const props = defineProps({
   title: { type: String, required: true },
   image: { type: String, required: true },
   details: { type: String, required: true },
+  country : { type: String, required: true },
   description: { type: String, required: true },
   link: { type: String, required: true },
   currentBid: { type: Number, required: true },
@@ -72,9 +73,12 @@ onBeforeUnmount(() => {
     />
     <div class="flex flex-col justify-between lg:p-4 p-2 leading-normal lg:w-1/2 w-full">
       <div class="lg:min-h-[364px]  text-center lg:text-left ">
-        <h2 class="lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C]   mb-2 lg:mb-[20px]">
+        <h2 class="lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C]   ">
           {{ props.title }}
         </h2>
+        <p class="lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C] mb-2 lg:mb-[20px]">
+          {{ props.country}}
+        </p>
         <p class="text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs">
           {{ props.details }}
         </p>
@@ -92,9 +96,9 @@ onBeforeUnmount(() => {
   </div>
   <div class="flex justify-center items-center pt-[45px] pb-[30px]">
       <div class="flex w-full gap-5 px-3">
-        <div class="flex w-1/2 items-center lg:justify-end justify-start">
+        <div class="flex w-1/2 items-center lg:justify-end justify-start lg:pr-12">
           <p class="text-green-500 font-bold lg:text-lg md:text-base text-sm">
-            Current Bid: THB {{ props.currentBid.toLocaleString() }}
+            Current Bid:<span class="block sm:inline"> THB {{ props.currentBid.toLocaleString() }}</span>
           </p>
         </div>
         <div class="flex w-1/2 lg:justify-start justify-end">

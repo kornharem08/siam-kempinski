@@ -7,6 +7,7 @@ const props = defineProps({
     title: { type: String, required: true },
     image: { type: String, required: true },
     details: { type: String, required: true },
+    country: { type: String, required: true },
     description: { type: String, required: true },
     link: { type: String, required: true },
     currentBid: { type: Number, required: true },
@@ -54,6 +55,7 @@ const __VLS_fnComponent = (await import('vue')).defineComponent({
         title: { type: String, required: true },
         image: { type: String, required: true },
         details: { type: String, required: true },
+        country: { type: String, required: true },
         description: { type: String, required: true },
         link: { type: String, required: true },
         currentBid: { type: Number, required: true },
@@ -82,8 +84,10 @@ function __VLS_template() {
     [openPhotoSwipe, startSlideShow, stopSlideShow, images,];
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-col justify-between lg:p-4 p-2 leading-normal lg:w-1/2 w-full") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("lg:min-h-[364px]  text-center lg:text-left ") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({ ...{ class: ("lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C]   mb-2 lg:mb-[20px]") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({ ...{ class: ("lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C]   ") }, });
     (props.title);
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C] mb-2 lg:mb-[20px]") }, });
+    (props.country);
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs") }, });
     (props.details);
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs") }, });
@@ -93,8 +97,9 @@ function __VLS_template() {
     (props.link);
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex justify-center items-center pt-[45px] pb-[30px]") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex w-full gap-5 px-3") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex w-1/2 items-center lg:justify-end justify-start") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex w-1/2 items-center lg:justify-end justify-start lg:pr-12") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("text-green-500 font-bold lg:text-lg md:text-base text-sm") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("block sm:inline") }, });
     (props.currentBid.toLocaleString());
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex w-1/2 lg:justify-start justify-end") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)({ ...{ class: ("bg-[#B4A090] text-white lg:px-6 lg:py-2 px-4 py-2 sm:px-6 sm:py-2 rounded-full lg:text-lg md:text-base text-sm") }, });
@@ -128,6 +133,11 @@ function __VLS_template() {
         __VLS_styleScopedClasses['lg:min-h-[364px]'];
         __VLS_styleScopedClasses['text-center'];
         __VLS_styleScopedClasses['lg:text-left'];
+        __VLS_styleScopedClasses['lg:text-lg'];
+        __VLS_styleScopedClasses['md:text-base'];
+        __VLS_styleScopedClasses['text-sm'];
+        __VLS_styleScopedClasses['font-bold'];
+        __VLS_styleScopedClasses['text-[#5C5C5C]'];
         __VLS_styleScopedClasses['lg:text-lg'];
         __VLS_styleScopedClasses['md:text-base'];
         __VLS_styleScopedClasses['text-sm'];
@@ -168,11 +178,14 @@ function __VLS_template() {
         __VLS_styleScopedClasses['items-center'];
         __VLS_styleScopedClasses['lg:justify-end'];
         __VLS_styleScopedClasses['justify-start'];
+        __VLS_styleScopedClasses['lg:pr-12'];
         __VLS_styleScopedClasses['text-green-500'];
         __VLS_styleScopedClasses['font-bold'];
         __VLS_styleScopedClasses['lg:text-lg'];
         __VLS_styleScopedClasses['md:text-base'];
         __VLS_styleScopedClasses['text-sm'];
+        __VLS_styleScopedClasses['block'];
+        __VLS_styleScopedClasses['sm:inline'];
         __VLS_styleScopedClasses['flex'];
         __VLS_styleScopedClasses['w-1/2'];
         __VLS_styleScopedClasses['lg:justify-start'];
@@ -209,6 +222,7 @@ function __VLS_template() {
             title: { type: String, required: true },
             image: { type: String, required: true },
             details: { type: String, required: true },
+            country: { type: String, required: true },
             description: { type: String, required: true },
             link: { type: String, required: true },
             currentBid: { type: Number, required: true },
@@ -229,6 +243,7 @@ export default (await import('vue')).defineComponent({
         title: { type: String, required: true },
         image: { type: String, required: true },
         details: { type: String, required: true },
+        country: { type: String, required: true },
         description: { type: String, required: true },
         link: { type: String, required: true },
         currentBid: { type: Number, required: true },

@@ -2,6 +2,7 @@ import { ref } from "vue";
 import CardSection from "./components/CardSection.vue";
 import AboutContent from "./components/AboutContent.vue";
 import AuctionInfo from "./components/AuctionInfo.vue";
+// import swipperCard from "./components/swipperCard.vue"
 import IntroductionSection from "./components/IntroductionSection.vue";
 import HeroSection from "./components/HeroSection.vue";
 import FooterContent from "./components/FooterContent.vue";

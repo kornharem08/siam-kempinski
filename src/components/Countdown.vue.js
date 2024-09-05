@@ -79,33 +79,33 @@ function __VLS_template() {
     let __VLS_resolvedLocalAndGlobalComponents;
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("") }, });
     if (__VLS_ctx.isNotStarted) {
-        __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("font-kings-caslon lg:text-2xl md:text-base text-sm font-bold mb-6 lg:text-white text-[#a58d7b] text-center") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("font-kings-caslon lg:text-2xl md:text-base text-lg font-bold mb-6 lg:text-white text-[#a58d7b] text-center") }, });
         // @ts-ignore
         [isNotStarted,];
     }
     else if (!__VLS_ctx.isExpired) {
-        __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("font-kings-caslon lg:text-2xl md:text-base text-sm font-bold mb-6 lg:text-white text-[#a58d7b] text-center") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("font-kings-caslon lg:text-2xl md:text-base text-lg font-bold mb-6 lg:text-white text-[#a58d7b] text-center") }, });
         // @ts-ignore
         [isExpired,];
     }
     if (!__VLS_ctx.isExpired) {
-        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("font-kings-caslon font-bold countdown py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[18px] opacity-100") }, });
-        __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("font-kings-caslon px-10 xl:text-xl md:text-lg text-sm") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("font-kings-caslon font-bold countdown lg:py-4 py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[8px] opacity-100") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("font-kings-caslon pl-6 pr-4 xl:text-3xl md:text-lg text-lg") }, });
         (__VLS_ctx.days);
         // @ts-ignore
         [isExpired, days,];
-        __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("font-kings-caslon xl:text-xl md:text-lg text-sm border-l-2 border-r-2 border-[#E5E5E5] px-10") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("font-kings-caslon xl:text-3xl md:text-lg text-lg border-l-2 border-r-2 border-[#E5E5E5] px-4") }, });
         (__VLS_ctx.hours);
         // @ts-ignore
         [hours,];
-        __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("font-kings-caslon xl:text-xl md:text-lg text-sm xs:text-xs px-10") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("font-kings-caslon xl:text-3xl md:text-lg text-lg xs:text-xs pl-4 pr-6") }, });
         (__VLS_ctx.minutes);
         // @ts-ignore
         [minutes,];
     }
     else if (__VLS_ctx.isExpired) {
-        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("font-kings-caslon font-bold countdown py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[18px] opacity-100") }, });
-        __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("font-kings-caslon px-44 lg:text-2xl md:text-base text-sm") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("font-kings-caslon font-bold countdown py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[8px] opacity-100") }, });
+        __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("font-kings-caslon lg:px-44 px-20 lg:text-2xl md:text-base text-sm") }, });
         // @ts-ignore
         [isExpired,];
     }
@@ -114,7 +114,7 @@ function __VLS_template() {
         __VLS_styleScopedClasses['font-kings-caslon'];
         __VLS_styleScopedClasses['lg:text-2xl'];
         __VLS_styleScopedClasses['md:text-base'];
-        __VLS_styleScopedClasses['text-sm'];
+        __VLS_styleScopedClasses['text-lg'];
         __VLS_styleScopedClasses['font-bold'];
         __VLS_styleScopedClasses['mb-6'];
         __VLS_styleScopedClasses['lg:text-white'];
@@ -123,7 +123,7 @@ function __VLS_template() {
         __VLS_styleScopedClasses['font-kings-caslon'];
         __VLS_styleScopedClasses['lg:text-2xl'];
         __VLS_styleScopedClasses['md:text-base'];
-        __VLS_styleScopedClasses['text-sm'];
+        __VLS_styleScopedClasses['text-lg'];
         __VLS_styleScopedClasses['font-bold'];
         __VLS_styleScopedClasses['mb-6'];
         __VLS_styleScopedClasses['lg:text-white'];
@@ -132,6 +132,7 @@ function __VLS_template() {
         __VLS_styleScopedClasses['font-kings-caslon'];
         __VLS_styleScopedClasses['font-bold'];
         __VLS_styleScopedClasses['countdown'];
+        __VLS_styleScopedClasses['lg:py-4'];
         __VLS_styleScopedClasses['py-3'];
         __VLS_styleScopedClasses['flex'];
         __VLS_styleScopedClasses['justify-around'];
@@ -140,27 +141,29 @@ function __VLS_template() {
         __VLS_styleScopedClasses['shadow-[0px_3px_6px_rgba(0,0,0,0.16)]'];
         __VLS_styleScopedClasses['border'];
         __VLS_styleScopedClasses['border-[#E5E5E5]'];
-        __VLS_styleScopedClasses['rounded-[18px]'];
+        __VLS_styleScopedClasses['rounded-[8px]'];
         __VLS_styleScopedClasses['opacity-100'];
         __VLS_styleScopedClasses['font-kings-caslon'];
-        __VLS_styleScopedClasses['px-10'];
-        __VLS_styleScopedClasses['xl:text-xl'];
+        __VLS_styleScopedClasses['pl-6'];
+        __VLS_styleScopedClasses['pr-4'];
+        __VLS_styleScopedClasses['xl:text-3xl'];
         __VLS_styleScopedClasses['md:text-lg'];
-        __VLS_styleScopedClasses['text-sm'];
+        __VLS_styleScopedClasses['text-lg'];
         __VLS_styleScopedClasses['font-kings-caslon'];
-        __VLS_styleScopedClasses['xl:text-xl'];
+        __VLS_styleScopedClasses['xl:text-3xl'];
         __VLS_styleScopedClasses['md:text-lg'];
-        __VLS_styleScopedClasses['text-sm'];
+        __VLS_styleScopedClasses['text-lg'];
         __VLS_styleScopedClasses['border-l-2'];
         __VLS_styleScopedClasses['border-r-2'];
         __VLS_styleScopedClasses['border-[#E5E5E5]'];
-        __VLS_styleScopedClasses['px-10'];
+        __VLS_styleScopedClasses['px-4'];
         __VLS_styleScopedClasses['font-kings-caslon'];
-        __VLS_styleScopedClasses['xl:text-xl'];
+        __VLS_styleScopedClasses['xl:text-3xl'];
         __VLS_styleScopedClasses['md:text-lg'];
-        __VLS_styleScopedClasses['text-sm'];
+        __VLS_styleScopedClasses['text-lg'];
         __VLS_styleScopedClasses['xs:text-xs'];
-        __VLS_styleScopedClasses['px-10'];
+        __VLS_styleScopedClasses['pl-4'];
+        __VLS_styleScopedClasses['pr-6'];
         __VLS_styleScopedClasses['font-kings-caslon'];
         __VLS_styleScopedClasses['font-bold'];
         __VLS_styleScopedClasses['countdown'];
@@ -172,10 +175,11 @@ function __VLS_template() {
         __VLS_styleScopedClasses['shadow-[0px_3px_6px_rgba(0,0,0,0.16)]'];
         __VLS_styleScopedClasses['border'];
         __VLS_styleScopedClasses['border-[#E5E5E5]'];
-        __VLS_styleScopedClasses['rounded-[18px]'];
+        __VLS_styleScopedClasses['rounded-[8px]'];
         __VLS_styleScopedClasses['opacity-100'];
         __VLS_styleScopedClasses['font-kings-caslon'];
-        __VLS_styleScopedClasses['px-44'];
+        __VLS_styleScopedClasses['lg:px-44'];
+        __VLS_styleScopedClasses['px-20'];
         __VLS_styleScopedClasses['lg:text-2xl'];
         __VLS_styleScopedClasses['md:text-base'];
         __VLS_styleScopedClasses['text-sm'];

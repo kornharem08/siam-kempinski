@@ -86,20 +86,20 @@ onUnmounted(() => {
 
 <template>
     <div class="">
-        <p v-if="isNotStarted" class="font-kings-caslon lg:text-2xl md:text-base text-sm font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
+        <p v-if="isNotStarted" class="font-kings-caslon lg:text-2xl md:text-base text-lg font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
             Bidding Starts In
         </p>
-        <p v-else-if="!isExpired" class="font-kings-caslon lg:text-2xl md:text-base text-sm font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
+        <p v-else-if="!isExpired" class="font-kings-caslon lg:text-2xl md:text-base text-lg font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
             Bidding Ends In
         </p>
-        <div v-if="!isExpired" class="font-kings-caslon font-bold countdown py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[18px] opacity-100">
-            <span class="font-kings-caslon px-10 xl:text-xl md:text-lg text-sm">{{ days }} days </span>
-            <span class="font-kings-caslon xl:text-xl md:text-lg text-sm border-l-2 border-r-2 border-[#E5E5E5] px-10">{{ hours }} hours </span>
-            <span class="font-kings-caslon xl:text-xl md:text-lg text-sm xs:text-xs px-10">{{ minutes }} mins </span>
+        <div v-if="!isExpired" class="font-kings-caslon font-bold countdown lg:py-4 py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[8px] opacity-100">
+            <span class="font-kings-caslon pl-6 pr-4 xl:text-3xl md:text-lg text-lg">{{ days }} days </span>
+            <span class="font-kings-caslon xl:text-3xl md:text-lg text-lg border-l-2 border-r-2 border-[#E5E5E5] px-4">{{ hours }} hours </span>
+            <span class="font-kings-caslon xl:text-3xl md:text-lg text-lg xs:text-xs pl-4 pr-6">{{ minutes }} mins </span>
             <!-- <span class="font-kings-caslon text-xl border-l-2 border-[#E5E5E5] px-10">{{ seconds }} seconds </span> -->
         </div>
-        <div v-else-if="isExpired" class="font-kings-caslon font-bold countdown py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[18px] opacity-100">
-            <span class="font-kings-caslon px-44 lg:text-2xl md:text-base text-sm">Expired</span>
+        <div v-else-if="isExpired" class="font-kings-caslon font-bold countdown py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[8px] opacity-100">
+            <span class="font-kings-caslon lg:px-44 px-20 lg:text-2xl md:text-base text-sm">Expired</span>
         </div>
     </div>
 </template>
