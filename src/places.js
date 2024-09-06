@@ -6,7 +6,7 @@ export const places = [
                 id: "siam_bangkok",
                 title: "Siam Kempinski Hotel Bangkok",
                 country: "Thailand",
-                image: "@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/KIBKK1_Grandeur Lobby.jpg",
+                image: "@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/01.jpg",
                 details: "For a three-night stay in a Duplex Cabana inclusive of Executive Lounge access and breakfast for two persons. Valued at THB 123,585.",
                 description: "The exquisite five-star luxury resort-inspired haven in Bangkok, an opulent urban oasis strategically positioned for travellers to immerse themselves in the tapestry of culturally vibrant and bustling city life that defines Bangkok.",
                 link: "https://www.kempinski.com/en/bangkok",
@@ -14,20 +14,30 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614003107591531",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/KIBKK1_Grandeur Lobby.jpg', import.meta.url).href,
-                        width: 1920,
-                        height: 1280
+                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/01.jpg', import.meta.url).href,
+                        width: 2506,
+                        height: 1707
                     },
                     {
-                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/KIBKK1_Duplex Cabana_Bedroom.jpg', import.meta.url).href,
-                        width: 1920,
-                        height: 1280
+                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/02.jpg', import.meta.url).href,
+                        width: 2506,
+                        height: 1707
                     },
                     {
-                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/KIBKK1_Duplex Cabana_Living Room_Angle 1.jpg', import.meta.url).href,
-                        width: 1920,
-                        height: 1280
-                    }
+                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/03.jpg', import.meta.url).href,
+                        width: 2506,
+                        height: 1707
+                    },
+                    {
+                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/04.jpg', import.meta.url).href,
+                        width: 2506,
+                        height: 1707
+                    },
+                    {
+                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/05.jpg', import.meta.url).href,
+                        width: 2506,
+                        height: 1707
+                    },
                 ]
             },
             {
@@ -189,6 +199,11 @@ export const places = [
                         src: new URL('@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/03.jpg', import.meta.url).href,
                         width: 2560,
                         height: 1708
+                    },
+                    {
+                        src: new URL('@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/04.jpg', import.meta.url).href,
+                        width: 1708,
+                        height: 2560
                     },
                 ]
             },
@@ -440,11 +455,6 @@ export const places = [
                     },
                     {
                         src: new URL('@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/04.jpg', import.meta.url).href,
-                        width: 2560,
-                        height: 1708
-                    },
-                    {
-                        src: new URL('@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/05.jpg', import.meta.url).href,
                         width: 2560,
                         height: 1708
                     },

@@ -1,66 +1,32 @@
-import { ref } from 'vue';
+import { register } from 'swiper/element/bundle';
 const { defineProps, defineSlots, defineEmits, defineExpose, defineModel, defineOptions, withDefaults, } = await import('vue');
-// Images for slides
-const slides = [
-    new URL("@/assets/img/Be_Health/01_Autistic Application Series_04.jpg", import.meta.url).href,
-    new URL("@/assets/img/Be_Health/01_Autistic Application Series_07.jpg", import.meta.url).href,
-    new URL("@/assets/img/Be_Health/01_Autistic Application Series_04.jpg", import.meta.url).href,
-    new URL("@/assets/img/Be_Health/01_Autistic Application Series_07.jpg", import.meta.url).href,
-    new URL("@/assets/img/Be_Health/01_Autistic Application Series_04.jpg", import.meta.url).href,
-];
-// Track the current slide index and drag state
-const currentIndex = ref(0);
-const isDragging = ref(false);
-const startX = ref(0); // Starting X position of the drag
-const dragOffset = ref(0); // Distance moved during the drag
-// Start dragging
-const startDrag = (event) => {
-    isDragging.value = true;
-    startX.value = 'touches' in event ? event.touches[0].clientX : event.clientX;
-    dragOffset.value = 0;
+// register Swiper custom elements
+register();
+import { computed } from "vue";
+// Image URLs
+const aboutMeImageContent2 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_07.jpg", import.meta.url).href);
+const aboutMeImageContent3 = computed(() => new URL("@/assets/img/Be_Health/Autistic_Learning Center_02.jpg", import.meta.url).href);
+const aboutMeImageContent4 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_04.jpg", import.meta.url).href);
+const aboutMeImageContent5 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_05.jpg", import.meta.url).href);
+const aboutMeImageContent6 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_06.jpg", import.meta.url).href);
+const aboutMeImageContent7 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_08.jpg", import.meta.url).href);
+// Swiper event handlers
+const onSwiper = (event) => {
+    console.log(event);
 };
-// Handle dragging
-const onDrag = (event) => {
-    if (!isDragging.value)
-        return;
-    const currentX = 'touches' in event ? event.touches[0].clientX : event.clientX;
-    dragOffset.value = currentX - startX.value;
+const onSlideChange = (event) => {
+    console.log("slide change", event);
 };
-// End dragging and decide which slide to move to
-const endDrag = () => {
-    if (!isDragging.value)
-        return;
-    isDragging.value = false;
-    // Determine if the user has dragged enough to change the slide
-    if (dragOffset.value > 50 && currentIndex.value > 0) {
-        prevSlide();
-    }
-    else if (dragOffset.value < -50 && currentIndex.value < slides.length - 1) {
-        nextSlide();
-    }
-    dragOffset.value = 0;
-};
-// Move to the previous slide
-const prevSlide = () => {
-    if (currentIndex.value > 0) {
-        currentIndex.value--;
-    }
-    else {
-        currentIndex.value = slides.length - 1; // Loop to the last slide
-    }
-};
-// Move to the next slide
-const nextSlide = () => {
-    if (currentIndex.value < slides.length - 1) {
-        currentIndex.value++;
-    }
-    else {
-        currentIndex.value = 0; // Loop to the first slide
-    }
-};
-// Move to a specific slide
-const goToSlide = (index) => {
-    currentIndex.value = index;
+// Breakpoints for responsive slides-per-view
+const breakpoints = {
+    640: {
+        slidesPerView: 2,
+        spaceBetween: 0,
+    },
+    0: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+    },
 };
 const __VLS_fnComponent = (await import('vue')).defineComponent({});
 ;
@@ -73,75 +39,178 @@ function __VLS_template() {
     let __VLS_localComponents;
     let __VLS_components;
     let __VLS_styleScopedClasses;
-    // CSS variable injection 
-    // CSS variable injection end 
     let __VLS_resolvedLocalAndGlobalComponents;
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ onMousedown: (__VLS_ctx.startDrag) }, ...{ onMousemove: (__VLS_ctx.onDrag) }, ...{ onMouseup: (__VLS_ctx.endDrag) }, ...{ onMouseleave: (__VLS_ctx.endDrag) }, ...{ onTouchstart: (__VLS_ctx.startDrag) }, ...{ onTouchmove: (__VLS_ctx.onDrag) }, ...{ onTouchend: (__VLS_ctx.endDrag) }, ...{ class: ("relative w-full overflow-hidden") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex transition-transform duration-500 ease-in-out") }, ...{ style: (({ transform: `translateX(calc(-${__VLS_ctx.currentIndex * 100}% + ${__VLS_ctx.dragOffset}px))` })) }, });
-    for (const [image, index] of __VLS_getVForSourceType((__VLS_ctx.slides))) {
-        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ key: ((index)), ...{ class: ("min-w-full flex-shrink-0") }, });
-        __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ src: ((image)), ...{ class: ("object-cover object-center w-full h-full") }, alt: ("stats"), });
-        // @ts-ignore
-        [startDrag, startDrag, onDrag, onDrag, endDrag, endDrag, endDrag, currentIndex, dragOffset, slides,];
-    }
-    __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)({ ...{ onClick: (__VLS_ctx.prevSlide) }, ...{ class: ("absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-500 text-white p-2") }, });
     // @ts-ignore
-    [prevSlide,];
-    __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)({ ...{ onClick: (__VLS_ctx.nextSlide) }, ...{ class: ("absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-500 text-white p-2") }, });
+    const __VLS_0 = {}
+        .SwiperContainer;
+    ({}.SwiperContainer);
+    ({}.SwiperContainer);
+    __VLS_components.SwiperContainer;
+    __VLS_components.swiperContainer;
+    __VLS_components.SwiperContainer;
+    __VLS_components.swiperContainer;
     // @ts-ignore
-    [nextSlide,];
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2") }, });
-    for (const [image, index] of __VLS_getVForSourceType((__VLS_ctx.slides))) {
-        __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ onClick: (...[$event]) => {
-                    __VLS_ctx.goToSlide(index);
-                    // @ts-ignore
-                    [slides, goToSlide,];
-                } }, key: ((index)), ...{ class: ((__VLS_ctx.currentIndex === index ? 'bg-gray-800' : 'bg-gray-300')) }, ...{ class: ("w-3 h-3 rounded-full cursor-pointer") }, });
-        __VLS_styleScopedClasses = (currentIndex === index ? 'bg-gray-800' : 'bg-gray-300');
-        // @ts-ignore
-        [currentIndex,];
-    }
+    [SwiperContainer, SwiperContainer,];
+    // @ts-ignore
+    const __VLS_1 = __VLS_asFunctionalComponent(__VLS_0, new __VLS_0({ ...{ 'onSwiper': {} }, ...{ 'onSlidechange': {} }, spaceBetween: ((0)), breakpoints: ((__VLS_ctx.breakpoints)), }));
+    const __VLS_2 = __VLS_1({ ...{ 'onSwiper': {} }, ...{ 'onSlidechange': {} }, spaceBetween: ((0)), breakpoints: ((__VLS_ctx.breakpoints)), }, ...__VLS_functionalComponentArgsRest(__VLS_1));
+    ({}({ ...{ 'onSwiper': {} }, ...{ 'onSlidechange': {} }, spaceBetween: ((0)), breakpoints: ((__VLS_ctx.breakpoints)), }));
+    let __VLS_6;
+    const __VLS_7 = {
+        onSwiper: (__VLS_ctx.onSwiper)
+    };
+    const __VLS_8 = {
+        onSlidechange: (__VLS_ctx.onSlideChange)
+    };
+    const __VLS_5 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_0, __VLS_2));
+    let __VLS_3;
+    let __VLS_4;
+    // @ts-ignore
+    const __VLS_9 = {}
+        .SwiperSlide;
+    ({}.SwiperSlide);
+    ({}.SwiperSlide);
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    // @ts-ignore
+    [SwiperSlide, SwiperSlide,];
+    // @ts-ignore
+    const __VLS_10 = __VLS_asFunctionalComponent(__VLS_9, new __VLS_9({}));
+    const __VLS_11 = __VLS_10({}, ...__VLS_functionalComponentArgsRest(__VLS_10));
+    ({}({}));
+    const __VLS_14 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_9, __VLS_11));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent2)), alt: ("stats"), });
+    // @ts-ignore
+    [breakpoints, onSwiper, onSlideChange, aboutMeImageContent2,];
+    __VLS_nonNullable(__VLS_14.slots).default;
+    // @ts-ignore
+    const __VLS_15 = {}
+        .SwiperSlide;
+    ({}.SwiperSlide);
+    ({}.SwiperSlide);
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    // @ts-ignore
+    [SwiperSlide, SwiperSlide,];
+    // @ts-ignore
+    const __VLS_16 = __VLS_asFunctionalComponent(__VLS_15, new __VLS_15({}));
+    const __VLS_17 = __VLS_16({}, ...__VLS_functionalComponentArgsRest(__VLS_16));
+    ({}({}));
+    const __VLS_20 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_15, __VLS_17));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent3)), alt: ("stats"), });
+    // @ts-ignore
+    [aboutMeImageContent3,];
+    __VLS_nonNullable(__VLS_20.slots).default;
+    // @ts-ignore
+    const __VLS_21 = {}
+        .SwiperSlide;
+    ({}.SwiperSlide);
+    ({}.SwiperSlide);
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    // @ts-ignore
+    [SwiperSlide, SwiperSlide,];
+    // @ts-ignore
+    const __VLS_22 = __VLS_asFunctionalComponent(__VLS_21, new __VLS_21({}));
+    const __VLS_23 = __VLS_22({}, ...__VLS_functionalComponentArgsRest(__VLS_22));
+    ({}({}));
+    const __VLS_26 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_21, __VLS_23));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent4)), alt: ("stats"), });
+    // @ts-ignore
+    [aboutMeImageContent4,];
+    __VLS_nonNullable(__VLS_26.slots).default;
+    // @ts-ignore
+    const __VLS_27 = {}
+        .SwiperSlide;
+    ({}.SwiperSlide);
+    ({}.SwiperSlide);
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    // @ts-ignore
+    [SwiperSlide, SwiperSlide,];
+    // @ts-ignore
+    const __VLS_28 = __VLS_asFunctionalComponent(__VLS_27, new __VLS_27({}));
+    const __VLS_29 = __VLS_28({}, ...__VLS_functionalComponentArgsRest(__VLS_28));
+    ({}({}));
+    const __VLS_32 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_27, __VLS_29));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent5)), alt: ("stats"), });
+    // @ts-ignore
+    [aboutMeImageContent5,];
+    __VLS_nonNullable(__VLS_32.slots).default;
+    // @ts-ignore
+    const __VLS_33 = {}
+        .SwiperSlide;
+    ({}.SwiperSlide);
+    ({}.SwiperSlide);
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    // @ts-ignore
+    [SwiperSlide, SwiperSlide,];
+    // @ts-ignore
+    const __VLS_34 = __VLS_asFunctionalComponent(__VLS_33, new __VLS_33({}));
+    const __VLS_35 = __VLS_34({}, ...__VLS_functionalComponentArgsRest(__VLS_34));
+    ({}({}));
+    const __VLS_38 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_33, __VLS_35));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent6)), alt: ("stats"), });
+    // @ts-ignore
+    [aboutMeImageContent6,];
+    __VLS_nonNullable(__VLS_38.slots).default;
+    // @ts-ignore
+    const __VLS_39 = {}
+        .SwiperSlide;
+    ({}.SwiperSlide);
+    ({}.SwiperSlide);
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    // @ts-ignore
+    [SwiperSlide, SwiperSlide,];
+    // @ts-ignore
+    const __VLS_40 = __VLS_asFunctionalComponent(__VLS_39, new __VLS_39({}));
+    const __VLS_41 = __VLS_40({}, ...__VLS_functionalComponentArgsRest(__VLS_40));
+    ({}({}));
+    const __VLS_44 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_39, __VLS_41));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent7)), alt: ("stats"), });
+    // @ts-ignore
+    [aboutMeImageContent7,];
+    __VLS_nonNullable(__VLS_44.slots).default;
+    __VLS_nonNullable(__VLS_5.slots).default;
     if (typeof __VLS_styleScopedClasses === 'object' && !Array.isArray(__VLS_styleScopedClasses)) {
-        __VLS_styleScopedClasses['relative'];
-        __VLS_styleScopedClasses['w-full'];
-        __VLS_styleScopedClasses['overflow-hidden'];
-        __VLS_styleScopedClasses['flex'];
-        __VLS_styleScopedClasses['transition-transform'];
-        __VLS_styleScopedClasses['duration-500'];
-        __VLS_styleScopedClasses['ease-in-out'];
-        __VLS_styleScopedClasses['min-w-full'];
-        __VLS_styleScopedClasses['flex-shrink-0'];
         __VLS_styleScopedClasses['object-cover'];
         __VLS_styleScopedClasses['object-center'];
         __VLS_styleScopedClasses['w-full'];
         __VLS_styleScopedClasses['h-full'];
-        __VLS_styleScopedClasses['absolute'];
-        __VLS_styleScopedClasses['top-1/2'];
-        __VLS_styleScopedClasses['left-4'];
-        __VLS_styleScopedClasses['transform'];
-        __VLS_styleScopedClasses['-translate-y-1/2'];
-        __VLS_styleScopedClasses['bg-gray-500'];
-        __VLS_styleScopedClasses['text-white'];
-        __VLS_styleScopedClasses['p-2'];
-        __VLS_styleScopedClasses['absolute'];
-        __VLS_styleScopedClasses['top-1/2'];
-        __VLS_styleScopedClasses['right-4'];
-        __VLS_styleScopedClasses['transform'];
-        __VLS_styleScopedClasses['-translate-y-1/2'];
-        __VLS_styleScopedClasses['bg-gray-500'];
-        __VLS_styleScopedClasses['text-white'];
-        __VLS_styleScopedClasses['p-2'];
-        __VLS_styleScopedClasses['absolute'];
-        __VLS_styleScopedClasses['bottom-4'];
-        __VLS_styleScopedClasses['left-1/2'];
-        __VLS_styleScopedClasses['transform'];
-        __VLS_styleScopedClasses['-translate-x-1/2'];
-        __VLS_styleScopedClasses['flex'];
-        __VLS_styleScopedClasses['space-x-2'];
-        __VLS_styleScopedClasses['w-3'];
-        __VLS_styleScopedClasses['h-3'];
-        __VLS_styleScopedClasses['rounded-full'];
-        __VLS_styleScopedClasses['cursor-pointer'];
+        __VLS_styleScopedClasses['object-cover'];
+        __VLS_styleScopedClasses['object-center'];
+        __VLS_styleScopedClasses['w-full'];
+        __VLS_styleScopedClasses['h-full'];
+        __VLS_styleScopedClasses['object-cover'];
+        __VLS_styleScopedClasses['object-center'];
+        __VLS_styleScopedClasses['w-full'];
+        __VLS_styleScopedClasses['h-full'];
+        __VLS_styleScopedClasses['object-cover'];
+        __VLS_styleScopedClasses['object-center'];
+        __VLS_styleScopedClasses['w-full'];
+        __VLS_styleScopedClasses['h-full'];
+        __VLS_styleScopedClasses['object-cover'];
+        __VLS_styleScopedClasses['object-center'];
+        __VLS_styleScopedClasses['w-full'];
+        __VLS_styleScopedClasses['h-full'];
+        __VLS_styleScopedClasses['object-cover'];
+        __VLS_styleScopedClasses['object-center'];
+        __VLS_styleScopedClasses['w-full'];
+        __VLS_styleScopedClasses['h-full'];
     }
     var __VLS_slots;
     return __VLS_slots;
@@ -151,15 +220,15 @@ function __VLS_template() {
     const __VLS_internalComponent = __VLS_defineComponent({
         setup() {
             return {
-                slides: slides,
-                currentIndex: currentIndex,
-                dragOffset: dragOffset,
-                startDrag: startDrag,
-                onDrag: onDrag,
-                endDrag: endDrag,
-                prevSlide: prevSlide,
-                nextSlide: nextSlide,
-                goToSlide: goToSlide,
+                aboutMeImageContent2: aboutMeImageContent2,
+                aboutMeImageContent3: aboutMeImageContent3,
+                aboutMeImageContent4: aboutMeImageContent4,
+                aboutMeImageContent5: aboutMeImageContent5,
+                aboutMeImageContent6: aboutMeImageContent6,
+                aboutMeImageContent7: aboutMeImageContent7,
+                onSwiper: onSwiper,
+                onSlideChange: onSlideChange,
+                breakpoints: breakpoints,
             };
         },
     });
