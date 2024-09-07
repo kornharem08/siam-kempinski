@@ -4,6 +4,7 @@ export const places = [
         items: [
             {
                 id: "siam_bangkok",
+                posts_id: 614003107591531,
                 title: "Siam Kempinski Hotel Bangkok",
                 country: "Thailand",
                 image: "@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/01.jpg",
@@ -14,34 +15,35 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614003107591531",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/01.jpg", import.meta.url).href,
                         width: 2506,
-                        height: 1707
+                        height: 1707,
                     },
                     {
-                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/02.jpg", import.meta.url).href,
                         width: 2506,
-                        height: 1707
+                        height: 1707,
                     },
                     {
-                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/03.jpg", import.meta.url).href,
                         width: 2506,
-                        height: 1707
+                        height: 1707,
                     },
                     {
-                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/04.jpg", import.meta.url).href,
                         width: 2506,
-                        height: 1707
+                        height: 1707,
                     },
                     {
-                        src: new URL('@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/05.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/05.jpg", import.meta.url).href,
                         width: 2506,
-                        height: 1707
+                        height: 1707,
                     },
-                ]
+                ],
             },
             {
                 id: "sindhorn_bangkok",
+                posts_id: 614003107591532,
                 title: "Sindhorn Kempinski Hotel Bangkok",
                 country: "Thailand",
                 image: "@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/01.jpg",
@@ -52,29 +54,30 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/01.jpg", import.meta.url).href,
                         width: 1920,
-                        height: 1280
+                        height: 1280,
                     },
                     {
-                        src: new URL('@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 2560
+                        height: 2560,
                     },
                     {
-                        src: new URL('@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/03.jpg", import.meta.url).href,
                         width: 1920,
-                        height: 1280
+                        height: 1280,
                     },
                     {
-                        src: new URL('@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/04.jpg", import.meta.url).href,
                         width: 1920,
-                        height: 1280
-                    }
-                ]
+                        height: 1280,
+                    },
+                ],
             },
             {
                 id: "apurva-bali_indonesia",
+                posts_id: 614003107591533,
                 title: "The Apurva Kempinski Bali",
                 country: "Indonesia",
                 image: "@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/01.jpg",
@@ -85,49 +88,50 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614522447539597",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1707
+                        height: 1707,
                     },
                     {
-                        src: new URL('@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1707
+                        height: 1707,
                     },
                     {
-                        src: new URL('@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/03.jpg", import.meta.url).href,
                         width: 1920,
-                        height: 1280
+                        height: 1280,
                     },
                     {
-                        src: new URL('@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/04.jpg", import.meta.url).href,
                         width: 1920,
-                        height: 1280
+                        height: 1280,
                     },
                     {
-                        src: new URL('@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/05.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/05.jpg", import.meta.url).href,
                         width: 1920,
-                        height: 1280
+                        height: 1280,
                     },
                     {
-                        src: new URL('@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/06.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/06.jpg", import.meta.url).href,
                         width: 1280,
-                        height: 962
+                        height: 962,
                     },
                     {
-                        src: new URL('@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/07.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/07.jpg", import.meta.url).href,
                         width: 1280,
-                        height: 962
+                        height: 962,
                     },
                     {
-                        src: new URL('@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/08.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/08.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1707
-                    }
-                ]
+                        height: 1707,
+                    },
+                ],
             },
             {
                 id: "capital_singapore",
+                posts_id: 614003107591534,
                 title: "The Capitol Kempinski Hotel",
                 country: "Singapore",
                 image: "@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/01.jpg",
@@ -138,44 +142,45 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614524694206039",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/01.jpg", import.meta.url).href,
                         width: 1600,
-                        height: 1081
+                        height: 1081,
                     },
                     {
-                        src: new URL('@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/02.jpg", import.meta.url).href,
                         width: 1600,
-                        height: 1081
+                        height: 1081,
                     },
                     {
-                        src: new URL('@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/03.jpg", import.meta.url).href,
                         width: 1707,
-                        height: 2560
+                        height: 2560,
                     },
                     {
-                        src: new URL('@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/04.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1707
+                        height: 1707,
                     },
                     {
-                        src: new URL('@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/05.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/05.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1707
+                        height: 1707,
                     },
                     {
-                        src: new URL('@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/06.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/06.jpg", import.meta.url).href,
                         width: 1707,
-                        height: 2560
+                        height: 2560,
                     },
                     {
-                        src: new URL('@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/07.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/07.jpg", import.meta.url).href,
                         width: 1707,
-                        height: 2560
-                    }
-                ]
+                        height: 2560,
+                    },
+                ],
             },
             {
                 id: "grand_kempinski_shanghai",
+                posts_id: 614003107591535,
                 title: "Grand Kempinski Hotel Shanghai",
                 country: "China",
                 image: "@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/01.jpg",
@@ -186,29 +191,30 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/01.jpg", import.meta.url).href,
                         width: 1920,
-                        height: 1080
+                        height: 1080,
                     },
                     {
-                        src: new URL('@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1709
+                        height: 1709,
                     },
                     {
-                        src: new URL('@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/04.jpg", import.meta.url).href,
                         width: 1708,
-                        height: 2560
+                        height: 2560,
                     },
-                ]
+                ],
             },
             {
                 id: "hangzhou_China",
+                posts_id: 614003107591536,
                 title: "Kempinski Hotel Hangzhou",
                 country: "China",
                 image: "@/assets/img/places/Hangzhou_China/01.jpg",
@@ -219,34 +225,35 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Hangzhou_China/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Hangzhou_China/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Hangzhou_China/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Hangzhou_China/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1709
+                        height: 1709,
                     },
                     {
-                        src: new URL('@/assets/img/places/Hangzhou_China/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Hangzhou_China/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Hangzhou_China/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Hangzhou_China/04.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
-                ]
+                ],
             },
-        ]
+        ],
     },
     {
         titleImage: new URL("@/assets/img/text-04.png", import.meta.url).href,
         items: [
             {
                 id: "St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz",
+                posts_id: 614003107591537,
                 title: "Grand Hotel Des Bains Kempinski St. Moritz",
                 country: "Switzerland",
                 image: "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/01.jpg",
@@ -257,64 +264,65 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/04.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/05.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/05.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/06.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/06.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/07.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/07.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/08.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/08.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/09.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/09.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/10.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/10.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/11.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/11.jpg", import.meta.url).href,
                         width: 1708,
-                        height: 2560
+                        height: 2560,
                     },
-                ]
+                ],
             },
             {
                 id: "berlin_germany_hotel_adlon_kempinski_berlin",
+                posts_id: 614003107591538,
                 title: "Hotel Adlon Kempinski Berlin",
                 country: "Germany",
                 image: "@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/01.jpg",
@@ -325,29 +333,30 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/04.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
-                ]
+                ],
             },
             {
                 id: "dresden_germany_hotel_taschenbergpalais_kempinski_dresden",
+                posts_id: 614003107591539,
                 title: "Hotel Taschenbergpalais Kempinski Dresden",
                 country: "Germany",
                 image: "@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/01.jpg",
@@ -358,49 +367,50 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/04.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/04.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/05.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/05.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/06.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/06.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/07.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/07.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
-                ]
+                ],
             },
             {
                 id: "muchen_germany_hotel_vier_jahreszeiten_kempinski_munchen",
+                posts_id: 614003107591540,
                 title: "Hotel Vier Jahreszeiten Kempinski München",
                 country: "Germany",
                 image: "@/assets/img/places/Muchen_Germany_Hotel_Vier_Jahreszeiten_Kempinski_München/01.jpg",
@@ -411,24 +421,25 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Muchen_Germany_Hotel_Vier_Jahreszeiten_Kempinski_München/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Muchen_Germany_Hotel_Vier_Jahreszeiten_Kempinski_München/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Muchen_Germany_Hotel_Vier_Jahreszeiten_Kempinski_München/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Muchen_Germany_Hotel_Vier_Jahreszeiten_Kempinski_München/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Muchen_Germany_Hotel_Vier_Jahreszeiten_Kempinski_München/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Muchen_Germany_Hotel_Vier_Jahreszeiten_Kempinski_München/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
-                ]
+                ],
             },
             {
                 id: "Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest",
+                posts_id: 614003107591541,
                 title: "Kempinski Hotel Corvinus Budapest",
                 country: "Hungary",
                 image: "@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/01.jpg",
@@ -439,29 +450,30 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/04.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
-                ]
+                ],
             },
             {
                 id: "Palace_Engelberg_Switzerland",
+                posts_id: 614003107591542,
                 title: "Kempinski Palace Engelberg Titlis Swiss Alps",
                 country: "Switzerland",
                 image: "@/assets/img/places/Palace_Engelberg_Switzerland/01.jpg",
@@ -472,53 +484,55 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Palace_Engelberg_Switzerland/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Palace_Engelberg_Switzerland/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Palace_Engelberg_Switzerland/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Palace_Engelberg_Switzerland/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Palace_Engelberg_Switzerland/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Palace_Engelberg_Switzerland/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Palace_Engelberg_Switzerland/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Palace_Engelberg_Switzerland/04.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Palace_Engelberg_Switzerland/05.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Palace_Engelberg_Switzerland/05.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Palace_Engelberg_Switzerland/06.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Palace_Engelberg_Switzerland/06.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Palace_Engelberg_Switzerland/07.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Palace_Engelberg_Switzerland/07.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Palace_Engelberg_Switzerland/08.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Palace_Engelberg_Switzerland/08.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
-                ]
+                ],
             },
-        ]
+        ],
     },
     {
         titleImage: new URL("@/assets/img/text-06.png", import.meta.url).href,
-        items: [{
+        items: [
+            {
                 id: "Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana",
+                posts_id: 614003107591543,
                 title: "Gran Hotel Manzana Kempinski La Habana",
                 country: "Cuba",
                 image: "@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/01.jpg",
@@ -529,44 +543,45 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614546797537162",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/04.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/05.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/05.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/06.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/06.jpg", import.meta.url).href,
                         width: 1707,
-                        height: 2560
+                        height: 2560,
                     },
                     {
-                        src: new URL('@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/07.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/07.jpg", import.meta.url).href,
                         width: 1707,
-                        height: 2560
-                    }
-                ]
+                        height: 2560,
+                    },
+                ],
             },
             {
                 id: "Cancun_Mexico_Kempinski_Hotel_Cancun",
+                posts_id: 614003107591544,
                 title: "Hotel Kempinski Cancun",
                 country: "Mexico",
                 image: "@/assets/img/places/Cancun_Mexico_Kempinski_Hotel_Cancun/01.jpg",
@@ -577,28 +592,30 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614546797537162",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Cancun_Mexico_Kempinski_Hotel_Cancun/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Cancun_Mexico_Kempinski_Hotel_Cancun/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Cancun_Mexico_Kempinski_Hotel_Cancun/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Cancun_Mexico_Kempinski_Hotel_Cancun/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Cancun_Mexico_Kempinski_Hotel_Cancun/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Cancun_Mexico_Kempinski_Hotel_Cancun/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
-                ]
+                ],
             },
-        ]
+        ],
     },
     {
         titleImage: new URL("@/assets/img/text-05.png", import.meta.url).href,
-        items: [{
+        items: [
+            {
                 id: "marsa_malaz_empinski",
+                posts_id: 614003107591545,
                 title: "Marsa Malaz Kempinski The Pearl Doha",
                 country: "Qatar",
                 image: "@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/01.jpg",
@@ -609,38 +626,38 @@ export const places = [
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
-                        src: new URL('@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/01.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/01.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/02.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/02.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/03.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/03.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/04.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/04.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/05.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/05.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
+                        height: 1708,
                     },
                     {
-                        src: new URL('@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/06.jpg', import.meta.url).href,
+                        src: new URL("@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/06.jpg", import.meta.url).href,
                         width: 2560,
-                        height: 1708
-                    }
-                ]
+                        height: 1708,
+                    },
+                ],
             },
-        ]
-    }
+        ],
+    },
 ];
 //# sourceMappingURL=places.js.map

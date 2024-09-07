@@ -86,7 +86,7 @@ const onSlideChange = (event) => {
 
 // Breakpoints for responsive slides-per-view
 const breakpoints = {
-  640: {
+  720: {
     slidesPerView: 2,
     spaceBetween: 0,
   },
