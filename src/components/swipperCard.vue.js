@@ -1,3 +1,4 @@
+import VLazyImage from "v-lazy-image";
 import { register } from 'swiper/element/bundle';
 const { defineProps, defineSlots, defineEmits, defineExpose, defineModel, defineOptions, withDefaults, } = await import('vue');
 // register Swiper custom elements
@@ -81,30 +82,22 @@ function __VLS_template() {
     const __VLS_11 = __VLS_10({}, ...__VLS_functionalComponentArgsRest(__VLS_10));
     ({}({}));
     const __VLS_14 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_9, __VLS_11));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent2)), alt: ("stats"), });
+    // @ts-ignore
+    const __VLS_15 = {}
+        .VLazyImage;
+    ({}.VLazyImage);
+    __VLS_components.VLazyImage;
+    __VLS_components.vLazyImage;
+    // @ts-ignore
+    [VLazyImage,];
+    // @ts-ignore
+    const __VLS_16 = __VLS_asFunctionalComponent(__VLS_15, new __VLS_15({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent2)), alt: ("stats"), }));
+    const __VLS_17 = __VLS_16({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent2)), alt: ("stats"), }, ...__VLS_functionalComponentArgsRest(__VLS_16));
+    ({}({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent2)), alt: ("stats"), }));
+    const __VLS_20 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_15, __VLS_17));
     // @ts-ignore
     [breakpoints, onSwiper, onSlideChange, aboutMeImageContent2,];
     __VLS_nonNullable(__VLS_14.slots).default;
-    // @ts-ignore
-    const __VLS_15 = {}
-        .SwiperSlide;
-    ({}.SwiperSlide);
-    ({}.SwiperSlide);
-    __VLS_components.SwiperSlide;
-    __VLS_components.swiperSlide;
-    __VLS_components.SwiperSlide;
-    __VLS_components.swiperSlide;
-    // @ts-ignore
-    [SwiperSlide, SwiperSlide,];
-    // @ts-ignore
-    const __VLS_16 = __VLS_asFunctionalComponent(__VLS_15, new __VLS_15({}));
-    const __VLS_17 = __VLS_16({}, ...__VLS_functionalComponentArgsRest(__VLS_16));
-    ({}({}));
-    const __VLS_20 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_15, __VLS_17));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent3)), alt: ("stats"), });
-    // @ts-ignore
-    [aboutMeImageContent3,];
-    __VLS_nonNullable(__VLS_20.slots).default;
     // @ts-ignore
     const __VLS_21 = {}
         .SwiperSlide;
@@ -121,30 +114,22 @@ function __VLS_template() {
     const __VLS_23 = __VLS_22({}, ...__VLS_functionalComponentArgsRest(__VLS_22));
     ({}({}));
     const __VLS_26 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_21, __VLS_23));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent4)), alt: ("stats"), });
-    // @ts-ignore
-    [aboutMeImageContent4,];
-    __VLS_nonNullable(__VLS_26.slots).default;
     // @ts-ignore
     const __VLS_27 = {}
-        .SwiperSlide;
-    ({}.SwiperSlide);
-    ({}.SwiperSlide);
-    __VLS_components.SwiperSlide;
-    __VLS_components.swiperSlide;
-    __VLS_components.SwiperSlide;
-    __VLS_components.swiperSlide;
+        .VLazyImage;
+    ({}.VLazyImage);
+    __VLS_components.VLazyImage;
+    __VLS_components.vLazyImage;
     // @ts-ignore
-    [SwiperSlide, SwiperSlide,];
+    [VLazyImage,];
     // @ts-ignore
-    const __VLS_28 = __VLS_asFunctionalComponent(__VLS_27, new __VLS_27({}));
-    const __VLS_29 = __VLS_28({}, ...__VLS_functionalComponentArgsRest(__VLS_28));
-    ({}({}));
+    const __VLS_28 = __VLS_asFunctionalComponent(__VLS_27, new __VLS_27({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent3)), alt: ("stats"), }));
+    const __VLS_29 = __VLS_28({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent3)), alt: ("stats"), }, ...__VLS_functionalComponentArgsRest(__VLS_28));
+    ({}({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent3)), alt: ("stats"), }));
     const __VLS_32 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_27, __VLS_29));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent5)), alt: ("stats"), });
     // @ts-ignore
-    [aboutMeImageContent5,];
-    __VLS_nonNullable(__VLS_32.slots).default;
+    [aboutMeImageContent3,];
+    __VLS_nonNullable(__VLS_26.slots).default;
     // @ts-ignore
     const __VLS_33 = {}
         .SwiperSlide;
@@ -161,12 +146,24 @@ function __VLS_template() {
     const __VLS_35 = __VLS_34({}, ...__VLS_functionalComponentArgsRest(__VLS_34));
     ({}({}));
     const __VLS_38 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_33, __VLS_35));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent6)), alt: ("stats"), });
-    // @ts-ignore
-    [aboutMeImageContent6,];
-    __VLS_nonNullable(__VLS_38.slots).default;
     // @ts-ignore
     const __VLS_39 = {}
+        .VLazyImage;
+    ({}.VLazyImage);
+    __VLS_components.VLazyImage;
+    __VLS_components.vLazyImage;
+    // @ts-ignore
+    [VLazyImage,];
+    // @ts-ignore
+    const __VLS_40 = __VLS_asFunctionalComponent(__VLS_39, new __VLS_39({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent4)), alt: ("stats"), }));
+    const __VLS_41 = __VLS_40({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent4)), alt: ("stats"), }, ...__VLS_functionalComponentArgsRest(__VLS_40));
+    ({}({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent4)), alt: ("stats"), }));
+    const __VLS_44 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_39, __VLS_41));
+    // @ts-ignore
+    [aboutMeImageContent4,];
+    __VLS_nonNullable(__VLS_38.slots).default;
+    // @ts-ignore
+    const __VLS_45 = {}
         .SwiperSlide;
     ({}.SwiperSlide);
     ({}.SwiperSlide);
@@ -177,14 +174,90 @@ function __VLS_template() {
     // @ts-ignore
     [SwiperSlide, SwiperSlide,];
     // @ts-ignore
-    const __VLS_40 = __VLS_asFunctionalComponent(__VLS_39, new __VLS_39({}));
-    const __VLS_41 = __VLS_40({}, ...__VLS_functionalComponentArgsRest(__VLS_40));
+    const __VLS_46 = __VLS_asFunctionalComponent(__VLS_45, new __VLS_45({}));
+    const __VLS_47 = __VLS_46({}, ...__VLS_functionalComponentArgsRest(__VLS_46));
     ({}({}));
-    const __VLS_44 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_39, __VLS_41));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent7)), alt: ("stats"), });
+    const __VLS_50 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_45, __VLS_47));
+    // @ts-ignore
+    const __VLS_51 = {}
+        .VLazyImage;
+    ({}.VLazyImage);
+    __VLS_components.VLazyImage;
+    __VLS_components.vLazyImage;
+    // @ts-ignore
+    [VLazyImage,];
+    // @ts-ignore
+    const __VLS_52 = __VLS_asFunctionalComponent(__VLS_51, new __VLS_51({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent5)), alt: ("stats"), }));
+    const __VLS_53 = __VLS_52({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent5)), alt: ("stats"), }, ...__VLS_functionalComponentArgsRest(__VLS_52));
+    ({}({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent5)), alt: ("stats"), }));
+    const __VLS_56 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_51, __VLS_53));
+    // @ts-ignore
+    [aboutMeImageContent5,];
+    __VLS_nonNullable(__VLS_50.slots).default;
+    // @ts-ignore
+    const __VLS_57 = {}
+        .SwiperSlide;
+    ({}.SwiperSlide);
+    ({}.SwiperSlide);
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    // @ts-ignore
+    [SwiperSlide, SwiperSlide,];
+    // @ts-ignore
+    const __VLS_58 = __VLS_asFunctionalComponent(__VLS_57, new __VLS_57({}));
+    const __VLS_59 = __VLS_58({}, ...__VLS_functionalComponentArgsRest(__VLS_58));
+    ({}({}));
+    const __VLS_62 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_57, __VLS_59));
+    // @ts-ignore
+    const __VLS_63 = {}
+        .VLazyImage;
+    ({}.VLazyImage);
+    __VLS_components.VLazyImage;
+    __VLS_components.vLazyImage;
+    // @ts-ignore
+    [VLazyImage,];
+    // @ts-ignore
+    const __VLS_64 = __VLS_asFunctionalComponent(__VLS_63, new __VLS_63({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent6)), alt: ("stats"), }));
+    const __VLS_65 = __VLS_64({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent6)), alt: ("stats"), }, ...__VLS_functionalComponentArgsRest(__VLS_64));
+    ({}({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent6)), alt: ("stats"), }));
+    const __VLS_68 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_63, __VLS_65));
+    // @ts-ignore
+    [aboutMeImageContent6,];
+    __VLS_nonNullable(__VLS_62.slots).default;
+    // @ts-ignore
+    const __VLS_69 = {}
+        .SwiperSlide;
+    ({}.SwiperSlide);
+    ({}.SwiperSlide);
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    __VLS_components.SwiperSlide;
+    __VLS_components.swiperSlide;
+    // @ts-ignore
+    [SwiperSlide, SwiperSlide,];
+    // @ts-ignore
+    const __VLS_70 = __VLS_asFunctionalComponent(__VLS_69, new __VLS_69({}));
+    const __VLS_71 = __VLS_70({}, ...__VLS_functionalComponentArgsRest(__VLS_70));
+    ({}({}));
+    const __VLS_74 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_69, __VLS_71));
+    // @ts-ignore
+    const __VLS_75 = {}
+        .VLazyImage;
+    ({}.VLazyImage);
+    __VLS_components.VLazyImage;
+    __VLS_components.vLazyImage;
+    // @ts-ignore
+    [VLazyImage,];
+    // @ts-ignore
+    const __VLS_76 = __VLS_asFunctionalComponent(__VLS_75, new __VLS_75({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent7)), alt: ("stats"), }));
+    const __VLS_77 = __VLS_76({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent7)), alt: ("stats"), }, ...__VLS_functionalComponentArgsRest(__VLS_76));
+    ({}({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent7)), alt: ("stats"), }));
+    const __VLS_80 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_75, __VLS_77));
     // @ts-ignore
     [aboutMeImageContent7,];
-    __VLS_nonNullable(__VLS_44.slots).default;
+    __VLS_nonNullable(__VLS_74.slots).default;
     __VLS_nonNullable(__VLS_5.slots).default;
     if (typeof __VLS_styleScopedClasses === 'object' && !Array.isArray(__VLS_styleScopedClasses)) {
         __VLS_styleScopedClasses['object-cover'];
@@ -220,6 +293,7 @@ function __VLS_template() {
     const __VLS_internalComponent = __VLS_defineComponent({
         setup() {
             return {
+                VLazyImage: VLazyImage,
                 aboutMeImageContent2: aboutMeImageContent2,
                 aboutMeImageContent3: aboutMeImageContent3,
                 aboutMeImageContent4: aboutMeImageContent4,

@@ -11,7 +11,7 @@ export const places = [
                 details: "For a three-night stay in a Duplex Cabana inclusive of Executive Lounge access and breakfast for two persons. Valued at THB 123,585.",
                 description: "The exquisite five-star luxury resort-inspired haven in Bangkok, an opulent urban oasis strategically positioned for travellers to immerse themselves in the tapestry of culturally vibrant and bustling city life that defines Bangkok.",
                 link: "https://www.kempinski.com/en/bangkok",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614003107591531",
                 dataSource: [
                     {
@@ -50,7 +50,7 @@ export const places = [
                 details: "For a three-night stay in a Grand Executive inclusive of Executive Lounge access and breakfast for two persons. Valued at THB 121,820.",
                 description: "The five-star hotel in Bangkok, where luxurious rooms, exquisite dining experiences, and a holistic wellness approach seamlessly merge to provide the epitome of luxury and well-being.",
                 link: "https://www.kempinski.com/en/sindhorn",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
                 dataSource: [
                     {
@@ -84,7 +84,7 @@ export const places = [
                 details: "For a three-night stay in a Cliff Private Pool Junior Suite inclusive of Cliff Lounge access and breakfast for two persons.Valued at THB 59,865.",
                 description: "Standing atop the majestic cliff of Nusa Dua, with breathtaking views of the Indian Ocean and tropical garden, The Apurva Kempinski Bali offers the epitome of beachfront luxury.",
                 link: "https://www.kempinski.com/en/the-apurva-kempinski-bali",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614522447539597",
                 dataSource: [
                     {
@@ -138,7 +138,7 @@ export const places = [
                 details: "For a three-night stay in a Stamford Suite inclusive of breakfast for two persons. Valued at THB 80,378.",
                 description: " At the heart of an integrated lifestyle hub, this harmonious blend of heritage and modern luxury features Arcade@The Capitol Kempinski, legendary Capitol Theatre, and Capitol Singapore mall.",
                 link: "https://www.kempinski.com/en/the-capitol-singapore",
-                currentBid: 65000,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614524694206039",
                 dataSource: [
                     {
@@ -187,7 +187,7 @@ export const places = [
                 details: "Enjoy a two-night stay in an Executive Suite, inclusive of breakfast and Club Lounge access for two persons, valued at THB 29,468.",
                 description: "Grand Kempinski Hotel Shanghai is an ideal base for exploring the vibrant city of Shanghai, with stunning skyline views and easy access to the city’s top attractions.",
                 link: "https://www.kempinski.com/en/grand-kempinski-hotel-shanghai",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
                 dataSource: [
                     {
@@ -205,11 +205,6 @@ export const places = [
                         width: 2560,
                         height: 1708,
                     },
-                    {
-                        src: new URL("@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/04.jpg", import.meta.url).href,
-                        width: 1708,
-                        height: 2560,
-                    },
                 ],
             },
             {
@@ -221,7 +216,7 @@ export const places = [
                 details: "Enjoy a two-night stay in a Junior Suite, inclusive of breakfast and Executive Lounge access for two persons, valued at THB 20,809.",
                 description: "Inspired by the Grand Canal’s rich history, Hangzhou offers an exclusive lifestyle with signature dining, exceptional design, and prime access to shopping, historic sites and the iconic Gongchen Bridge. ",
                 link: "https://www.kempinski.com/en/hotel-hangzhou",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
                 dataSource: [
                     {
@@ -260,7 +255,7 @@ export const places = [
                 details: "Enjoy a two-night stay in a Classic Junior Suite, inclusive of breakfast for two persons, valued at THB 241,120.",
                 description: "Nestled in a historic 19th-century building, this resort offers timeless European luxury at the base of the cable car, providing unparalleled access to skiing and hiking in the tranquil Swiss Alps.",
                 link: "https://www.kempinski.com/en/grand-hotel-des-bains",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
@@ -329,7 +324,7 @@ export const places = [
                 details: "Enjoy a three-night stay in an Adlon Executive Suite, inclusive of breakfast for two persons, valued at THB 120,927.",
                 description: "In the heart of Berlin, facing the Brandenburg Gate and only a few steps from the government district, you will find the legendary five-star luxury Hotel Adlon Kempinski Berlin. ",
                 link: "https://www.kempinski.com/en/hotel-adlon",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
@@ -363,7 +358,7 @@ export const places = [
                 details: "Enjoy a two-night stay in a Deluxe Suite, inclusive of breakfast for two persons and complimentary access to the swimming pool and spa, valued at THB 81,477.",
                 description: "Experience opulent Saxon Baroque architecture at Taschenbergpalais, a five-star hotel in Dresden, Germany, which is located near iconic landmarks such as the Zwinger Palace and Semper Opera House.",
                 link: "https://www.kempinski.com/en/hotel-taschenbergpalais",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
@@ -417,7 +412,7 @@ export const places = [
                 details: "Enjoy a two-night stay in a Junior Suite, inclusive of breakfast for two persons and complimentary access to Kempinski The Spa, valued at THB 87,919.",
                 description: "Experience royal Bavarian flair during your city break or business trip by staying directly at Munich's most exclusive street: Maximilianstraße.",
                 link: "https://www.kempinski.com/en/hotel-vier-jahreszeiten",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
@@ -446,7 +441,7 @@ export const places = [
                 details: "Enjoy a three-night stay in a Junior Suite, inclusive of breakfast for two persons, valued at THB 73,139.",
                 description: "This modern luxury getaway in Budapest is perfectly positioned by Erzsébet Park and Fashion Street—your ideal base to explore the city's rich history, just steps away.",
                 link: "https://www.kempinski.com/en/hotel-corvinus-budapest",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
@@ -480,7 +475,7 @@ export const places = [
                 details: "Enjoy a two-night stay in a Junior Suite, inclusive of breakfast for two persons and complimentary entrance to Kempinski The Spa, valued at THB 111,409.",
                 description: "The Kempinski Palace Engelberg Titlis Swiss Alps, the first and only five-star resort in Central Switzerland’s largest winter and summer destination, offers a blend of Belle Époque charm and contemporary luxury.",
                 link: "https://www.kempinski.com/en/kempinski-palace-engelberg",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {
@@ -539,7 +534,7 @@ export const places = [
                 details: "Enjoy a two-night stay in a Suite Habana Double Room, inclusive of breakfast for two persons, valued at THB 95,765.",
                 description: "Located in the heart of Havana, near the Malecón, this iconic luxury venue offers modern comfort and impeccable service, making it perfect for a memorable stay in Cuba’s vibrant capital.",
                 link: "https://www.kempinski.com/en/gran-hotel-kempinski-la-habana",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614546797537162",
                 dataSource: [
                     {
@@ -588,7 +583,7 @@ export const places = [
                 details: "Enjoy a two-night stay in a Delxue Seaside Suite, inclusive of breakfast for two persons, valued at THB 179,389.",
                 description: "Two sets of vouchers are available: one will be awarded to the highest bidder, and the second set will be awarded to the second highest bidder. Embark on a captivating journey to discover the treasures of Mexican heritage, where the essence of tradition intertwines seamlessly with timeless elegance and Cancún's finest hospitality.",
                 link: "https://www.kempinski.com/en/hotel-cancun",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614546797537162",
                 dataSource: [
                     {
@@ -622,7 +617,7 @@ export const places = [
                 details: "Enjoy a two-night stay in a Grand Deluxe Suite, inclusive of breakfast for two persons, valued at THB 70,267.",
                 description: "Situated on The Pearl, a luxurious man-made island with elegant promenades, stunning marinas and lush landscapes, this is perfect for those looking to explore Qatar in a unique way. ",
                 link: "https://www.kempinski.com/en/marsa-malaz-kempinski-the-pearl-doha",
-                currentBid: 0,
+                currentBid: 9999,
                 facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
                 dataSource: [
                     {

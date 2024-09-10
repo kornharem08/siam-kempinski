@@ -18,12 +18,12 @@ interface priceUpdate {
 const places = ref([...initialPlaces]); // Make places reactive
 
 
-let interval: ReturnType<typeof setInterval>;
+// let interval: ReturnType<typeof setInterval>;
 
-onMounted(() => {
-  updatePrice(); // Initial call to set the countdown immediately
-  interval = setInterval(updatePrice, 15000); // Update every second
-});
+// onMounted(() => {
+//   updatePrice(); // Initial call to set the countdown immediately
+//   interval = setInterval(updatePrice, 15000); // Update every second
+// });
 function updatePrice() {
   console.log("Updating price");
 

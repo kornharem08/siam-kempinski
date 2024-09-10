@@ -6,42 +6,42 @@
     @slidechange="onSlideChange"
   >
     <swiper-slide>
-      <img
+      <v-lazy-image
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent2"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
-      <img
+      <v-lazy-image
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent3"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
-      <img
+      <v-lazy-image
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent4"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
-      <img
+      <v-lazy-image
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent5"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
-      <img
+      <v-lazy-image
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent6"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
-      <img
+      <v-lazy-image
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent7"
         alt="stats"
@@ -51,6 +51,7 @@
 </template>
 
 <script setup>
+import VLazyImage from "v-lazy-image";
 import { register } from 'swiper/element/bundle';
 // register Swiper custom elements
 register();
@@ -86,7 +87,7 @@ const onSlideChange = (event) => {
 
 // Breakpoints for responsive slides-per-view
 const breakpoints = {
-  720: {
+  1024: {
     slidesPerView: 2,
     spaceBetween: 0,
   },

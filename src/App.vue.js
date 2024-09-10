@@ -1,4 +1,4 @@
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import CardSection from "./components/CardSection.vue";
 import AboutContent from "./components/AboutContent.vue";
 import AuctionInfo from "./components/AuctionInfo.vue";
@@ -10,11 +10,11 @@ import BackToTop from "./components/BackToTop.vue";
 import { places as initialPlaces } from "./places";
 const { defineProps, defineSlots, defineEmits, defineExpose, defineModel, defineOptions, withDefaults, } = await import('vue');
 const places = ref([...initialPlaces]); // Make places reactive
-let interval;
-onMounted(() => {
-    updatePrice(); // Initial call to set the countdown immediately
-    interval = setInterval(updatePrice, 15000); // Update every second
-});
+// let interval: ReturnType<typeof setInterval>;
+// onMounted(() => {
+//   updatePrice(); // Initial call to set the countdown immediately
+//   interval = setInterval(updatePrice, 15000); // Update every second
+// });
 function updatePrice() {
     console.log("Updating price");
     let auctions = [

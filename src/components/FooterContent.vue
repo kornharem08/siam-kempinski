@@ -1,8 +1,11 @@
 <script lang="ts" setup>
+function onRedirect(url: string) {
+    window.location.href = url;
+}
 </script>
 
 <template>
-    <div class="text-center flex justify-center flex-col lg:text-lg md:text-base text-sm mb-20" style="padding-bottom: 20px; color: #5f5f5f">
+    <div class="text-center flex justify-center flex-col lg:text-lg md:text-base text-sm mb-10" style="padding-bottom: 20px; color: #5f5f5f">
         <!-- Centered hr element -->
         <div class="flex justify-center py-20">
             <hr class="lg:w-[375px] w-[200px] border-[2px] lg:border-[4px] border-[#A58D7B] opacity-55 rounded-xl">
@@ -20,12 +23,12 @@
         </div>
 
         <div class="flex justify-center">
-            <img src="@/assets/img/siam-kempinski-hotel-bangkok-logo.svg" class="lg:w-[160px] lg:h-[160px] w-[60px] h-[60px]" style="margin-right: 12px;" />
-            <img src="@/assets/img/sindhorn-kempinski-hotel-bangkok-logo.svg" class="lg:w-[160px] lg:h-[160px] w-[60px] h-[60px]" style="margin-left: 12px;" />
+            <img src="@/assets/img/siam-kempinski-hotel-bangkok-logo.svg" @click="onRedirect('https://www.kempinski.com/en/bangkok')" class="lg:w-[160px] lg:h-[160px] w-[60px] h-[60px]" style="margin-right: 12px;" />
+            <img src="@/assets/img/sindhorn-kempinski-hotel-bangkok-logo.svg" @click="onRedirect('https://www.kempinski.com/en/sindhorn')" class="lg:w-[160px] lg:h-[160px] w-[60px] h-[60px]" style="margin-left: 12px;" />
         </div>
 
         <div class="flex justify-center mt-6 ">
-           <img src="@/assets/img/kempinski-logo.png" class="lg:w-[198px] lg:h-[78px] w-[80px] h-[30px]"/> 
+           <img src="@/assets/img/kempinski-logo.png" @click="onRedirect('https://www.kempinski.com')" class="lg:w-[198px] lg:h-[78px] w-[80px] h-[30px]"/> 
         </div>
     </div>
 </template>

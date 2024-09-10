@@ -30,7 +30,7 @@ const backgroundImageStyle = computed(() => ({
     <div class="flex  w-full justify-center items-center" v-if="!isShowAboutContent">
       <button @click="toggleContent"
         class="lg:px-12 px-6 py-3 lg:text-lg md:text-base text-xs italic bg-white bg-no-repeat bg-clip-padding shadow-[0px_3px_6px_rgba(0,0,0,0.16)] rounded-[36px]">
-        About Be Health
+        About BE Health
       </button>
     </div>
 

@@ -86,11 +86,14 @@ onUnmounted(() => {
 
 <template>
     <div class="">
-        <p v-if="isNotStarted" class="font-kings-caslon lg:text-2xl md:text-base text-lg font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
+        <p v-if="isNotStarted && !isExpired" class="font-kings-caslon lg:text-2xl md:text-base text-lg font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
             Bidding Starts In
         </p>
         <p v-else-if="!isExpired" class="font-kings-caslon lg:text-2xl md:text-base text-lg font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
             Bidding Ends In
+        </p>
+        <p v-if="isExpired" class="font-kings-caslon lg:text-2xl md:text-base text-lg font-bold mb-6 lg:text-white text-[#a58d7b] text-center">
+            Bidding End
         </p>
         <div v-if="!isExpired" class="font-kings-caslon font-bold countdown lg:py-4 py-3 flex justify-around items-center bg-white shadow-[0px_3px_6px_rgba(0,0,0,0.16)] border border-[#E5E5E5] rounded-[8px] opacity-100">
             <span class="font-kings-caslon pl-6 pr-4 xl:text-3xl md:text-lg text-lg">{{ days }} days </span>
