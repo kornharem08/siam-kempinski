@@ -65,7 +65,7 @@ onBeforeUnmount(() => {
   <div class="border border-gray-200 rounded-xl overflow-hidden">
     <div class="flex lg:flex-row flex-col items-stretch bg-white">
       <v-lazy-image
-        class="object-cover lg:w-1/2 w-full rounded-lg lg:rounded-l-xl lg:rounded-r-none lg:max-h-[394px] max-h-[191px] md:max-h-[280px]"
+        class="object-cover lg:w-1/2 w-full rounded-lg lg:rounded-l-xl lg:rounded-r-none lg:max-h-[394px] max-h-[191px] md:max-h-[300px]"
         :src="images"
         @click.native="openPhotoSwipe"
         @mouseover="startSlideShow"
@@ -74,7 +74,7 @@ onBeforeUnmount(() => {
       <div
         class="flex flex-col justify-between lg:p-4 p-2 leading-normal lg:w-1/2 w-full"
       >
-        <div class="lg:min-h-[364px] text-center lg:text-left">
+        <div class="lg:min-h-[425px] text-center lg:text-left">
           <h2 class="lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C]">
             {{ props.title }}
           </h2>

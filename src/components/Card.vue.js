@@ -89,9 +89,9 @@ function __VLS_template() {
     // @ts-ignore
     [VLazyImage,];
     // @ts-ignore
-    const __VLS_1 = __VLS_asFunctionalComponent(__VLS_0, new __VLS_0({ ...{ 'onClick': {} }, ...{ 'onMouseover': {} }, ...{ 'onMouseleave': {} }, ...{ class: ("object-cover lg:w-1/2 w-full rounded-lg lg:rounded-l-xl lg:rounded-r-none lg:max-h-[394px] max-h-[191px] md:max-h-[280px]") }, src: ((__VLS_ctx.images)), }));
-    const __VLS_2 = __VLS_1({ ...{ 'onClick': {} }, ...{ 'onMouseover': {} }, ...{ 'onMouseleave': {} }, ...{ class: ("object-cover lg:w-1/2 w-full rounded-lg lg:rounded-l-xl lg:rounded-r-none lg:max-h-[394px] max-h-[191px] md:max-h-[280px]") }, src: ((__VLS_ctx.images)), }, ...__VLS_functionalComponentArgsRest(__VLS_1));
-    ({}({ ...{ 'onClick': {} }, ...{ 'onMouseover': {} }, ...{ 'onMouseleave': {} }, ...{ class: ("object-cover lg:w-1/2 w-full rounded-lg lg:rounded-l-xl lg:rounded-r-none lg:max-h-[394px] max-h-[191px] md:max-h-[280px]") }, src: ((__VLS_ctx.images)), }));
+    const __VLS_1 = __VLS_asFunctionalComponent(__VLS_0, new __VLS_0({ ...{ 'onClick': {} }, ...{ 'onMouseover': {} }, ...{ 'onMouseleave': {} }, ...{ class: ("object-cover lg:w-1/2 w-full rounded-lg lg:rounded-l-xl lg:rounded-r-none lg:max-h-[394px] max-h-[191px] md:max-h-[300px]") }, src: ((__VLS_ctx.images)), }));
+    const __VLS_2 = __VLS_1({ ...{ 'onClick': {} }, ...{ 'onMouseover': {} }, ...{ 'onMouseleave': {} }, ...{ class: ("object-cover lg:w-1/2 w-full rounded-lg lg:rounded-l-xl lg:rounded-r-none lg:max-h-[394px] max-h-[191px] md:max-h-[300px]") }, src: ((__VLS_ctx.images)), }, ...__VLS_functionalComponentArgsRest(__VLS_1));
+    ({}({ ...{ 'onClick': {} }, ...{ 'onMouseover': {} }, ...{ 'onMouseleave': {} }, ...{ class: ("object-cover lg:w-1/2 w-full rounded-lg lg:rounded-l-xl lg:rounded-r-none lg:max-h-[394px] max-h-[191px] md:max-h-[300px]") }, src: ((__VLS_ctx.images)), }));
     let __VLS_6;
     const __VLS_7 = {
         onClick: (__VLS_ctx.openPhotoSwipe)
@@ -108,7 +108,7 @@ function __VLS_template() {
     // @ts-ignore
     [images, openPhotoSwipe, startSlideShow, stopSlideShow,];
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-col justify-between lg:p-4 p-2 leading-normal lg:w-1/2 w-full") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("lg:min-h-[364px] text-center lg:text-left") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("lg:min-h-[425px] text-center lg:text-left") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({ ...{ class: ("lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C]") }, });
     (props.title);
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C] mb-2 lg:mb-[20px]") }, });
@@ -146,7 +146,7 @@ function __VLS_template() {
         __VLS_styleScopedClasses['lg:rounded-r-none'];
         __VLS_styleScopedClasses['lg:max-h-[394px]'];
         __VLS_styleScopedClasses['max-h-[191px]'];
-        __VLS_styleScopedClasses['md:max-h-[280px]'];
+        __VLS_styleScopedClasses['md:max-h-[300px]'];
         __VLS_styleScopedClasses['flex'];
         __VLS_styleScopedClasses['flex-col'];
         __VLS_styleScopedClasses['justify-between'];
@@ -155,7 +155,7 @@ function __VLS_template() {
         __VLS_styleScopedClasses['leading-normal'];
         __VLS_styleScopedClasses['lg:w-1/2'];
         __VLS_styleScopedClasses['w-full'];
-        __VLS_styleScopedClasses['lg:min-h-[364px]'];
+        __VLS_styleScopedClasses['lg:min-h-[425px]'];
         __VLS_styleScopedClasses['text-center'];
         __VLS_styleScopedClasses['lg:text-left'];
         __VLS_styleScopedClasses['lg:text-lg'];
