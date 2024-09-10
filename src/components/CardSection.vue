@@ -30,7 +30,7 @@ const sectionTitleUrl = computed(() => new URL(props.sectionTitle, import.meta.u
 
 <template>
   <div class="xl:px-6 px-2">
-    <img class="w-auto mx-auto m-10 " :class="sectionTitle.includes('text-05')  ? 'lg:h-[60px] h-[45px]': 'h-[28px] sm:h-[36px]' " :src="sectionTitleUrl" />
+    <img class="w-auto mx-auto m-10 " :class="sectionTitle.includes('text-05')  ? 'lg:h-[55px] h-[45px]': 'h-[28px] sm:h-[36px]' " :src="sectionTitleUrl" />
     <div class="flex flex-wrap justify-center">
       <div v-for="(card, index) in props.cards" :key="index" class="w-full xl:w-1/2 px-4 mb-6">
         <Card :id="card.id" :image="card.image" :facebookLink="card.facebookLink" :link="card.link"

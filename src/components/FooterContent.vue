@@ -23,12 +23,12 @@ function onRedirect(url: string) {
         </div>
 
         <div class="flex justify-center">
-            <img src="@/assets/img/siam-kempinski-hotel-bangkok-logo.svg" @click="onRedirect('https://www.kempinski.com/en/bangkok')" class="lg:w-[160px] lg:h-[160px] w-[60px] h-[60px]" style="margin-right: 12px;" />
-            <img src="@/assets/img/sindhorn-kempinski-hotel-bangkok-logo.svg" @click="onRedirect('https://www.kempinski.com/en/sindhorn')" class="lg:w-[160px] lg:h-[160px] w-[60px] h-[60px]" style="margin-left: 12px;" />
+            <img src="@/assets/img/siam-kempinski-hotel-bangkok-logo.svg" @click="onRedirect('https://www.kempinski.com/en/bangkok')" class="lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]" style="margin-right: 12px;" />
+            <img src="@/assets/img/sindhorn-kempinski-hotel-bangkok-logo.svg" @click="onRedirect('https://www.kempinski.com/en/sindhorn')" class="lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]" style="margin-left: 12px;" />
         </div>
 
         <div class="flex justify-center mt-6 ">
-           <img src="@/assets/img/kempinski-logo.png" @click="onRedirect('https://www.kempinski.com')" class="lg:w-[198px] lg:h-[78px] w-[80px] h-[30px]"/> 
+           <img src="@/assets/img/kempinski-logo.png" @click="onRedirect('https://www.kempinski.com')" class="lg:w-[120px] lg:h-[58px] w-[80px] h-[30px]"/> 
         </div>
     </div>
 </template>

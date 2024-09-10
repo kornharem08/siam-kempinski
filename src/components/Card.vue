@@ -84,12 +84,12 @@ onBeforeUnmount(() => {
             {{ props.country }}
           </p>
           <p
-            class="text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs"
+            class="text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs font-normal"
           >
             {{ props.details }}
           </p>
           <p
-            class="text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs"
+            class="text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs font-normal"
           >
             {{ props.description }}
           </p>

@@ -6,42 +6,42 @@
     @slidechange="onSlideChange"
   >
     <swiper-slide>
-      <v-lazy-image
+      <img
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent2"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
-      <v-lazy-image
+      <img
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent3"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
-      <v-lazy-image
+      <img
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent4"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
-      <v-lazy-image
+      <img
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent5"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
-      <v-lazy-image
+      <img
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent6"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
-      <v-lazy-image
+      <img
         class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent7"
         alt="stats"
@@ -79,10 +79,10 @@ const aboutMeImageContent7 = computed(
 
 // Swiper event handlers
 const onSwiper = (event) => {
-  console.log(event);
+
 };
 const onSlideChange = (event) => {
-  console.log("slide change", event);
+ 
 };
 
 // Breakpoints for responsive slides-per-view

@@ -32,18 +32,18 @@ function __VLS_template() {
                 __VLS_ctx.onRedirect('https://www.kempinski.com/en/bangkok');
                 // @ts-ignore
                 [onRedirect,];
-            } }, src: ("@/assets/img/siam-kempinski-hotel-bangkok-logo.svg"), ...{ class: ("lg:w-[160px] lg:h-[160px] w-[60px] h-[60px]") }, ...{ style: ({}) }, });
+            } }, src: ("@/assets/img/siam-kempinski-hotel-bangkok-logo.svg"), ...{ class: ("lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]") }, ...{ style: ({}) }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ onClick: (...[$event]) => {
                 __VLS_ctx.onRedirect('https://www.kempinski.com/en/sindhorn');
                 // @ts-ignore
                 [onRedirect,];
-            } }, src: ("@/assets/img/sindhorn-kempinski-hotel-bangkok-logo.svg"), ...{ class: ("lg:w-[160px] lg:h-[160px] w-[60px] h-[60px]") }, ...{ style: ({}) }, });
+            } }, src: ("@/assets/img/sindhorn-kempinski-hotel-bangkok-logo.svg"), ...{ class: ("lg:w-[100px] lg:h-[100px] w-[60px] h-[60px]") }, ...{ style: ({}) }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex justify-center mt-6 ") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ onClick: (...[$event]) => {
                 __VLS_ctx.onRedirect('https://www.kempinski.com');
                 // @ts-ignore
                 [onRedirect,];
-            } }, src: ("@/assets/img/kempinski-logo.png"), ...{ class: ("lg:w-[198px] lg:h-[78px] w-[80px] h-[30px]") }, });
+            } }, src: ("@/assets/img/kempinski-logo.png"), ...{ class: ("lg:w-[120px] lg:h-[58px] w-[80px] h-[30px]") }, });
     if (typeof __VLS_styleScopedClasses === 'object' && !Array.isArray(__VLS_styleScopedClasses)) {
         __VLS_styleScopedClasses[''];
         __VLS_styleScopedClasses[''];
@@ -71,19 +71,19 @@ function __VLS_template() {
         __VLS_styleScopedClasses['lg:text-lg'];
         __VLS_styleScopedClasses['flex'];
         __VLS_styleScopedClasses['justify-center'];
-        __VLS_styleScopedClasses['lg:w-[160px]'];
-        __VLS_styleScopedClasses['lg:h-[160px]'];
+        __VLS_styleScopedClasses['lg:w-[100px]'];
+        __VLS_styleScopedClasses['lg:h-[100px]'];
         __VLS_styleScopedClasses['w-[60px]'];
         __VLS_styleScopedClasses['h-[60px]'];
-        __VLS_styleScopedClasses['lg:w-[160px]'];
-        __VLS_styleScopedClasses['lg:h-[160px]'];
+        __VLS_styleScopedClasses['lg:w-[100px]'];
+        __VLS_styleScopedClasses['lg:h-[100px]'];
         __VLS_styleScopedClasses['w-[60px]'];
         __VLS_styleScopedClasses['h-[60px]'];
         __VLS_styleScopedClasses['flex'];
         __VLS_styleScopedClasses['justify-center'];
         __VLS_styleScopedClasses['mt-6'];
-        __VLS_styleScopedClasses['lg:w-[198px]'];
-        __VLS_styleScopedClasses['lg:h-[78px]'];
+        __VLS_styleScopedClasses['lg:w-[120px]'];
+        __VLS_styleScopedClasses['lg:h-[58px]'];
         __VLS_styleScopedClasses['w-[80px]'];
         __VLS_styleScopedClasses['h-[30px]'];
     }

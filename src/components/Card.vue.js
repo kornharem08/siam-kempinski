@@ -113,9 +113,9 @@ function __VLS_template() {
     (props.title);
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("lg:text-lg md:text-base text-sm font-bold text-[#5C5C5C] mb-2 lg:mb-[20px]") }, });
     (props.country);
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs font-normal") }, });
     (props.details);
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs font-normal") }, });
     (props.description);
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("text-[#5C5C5C] lg:mb-4 mb-2 lg:text-lg md:text-base text-xs") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ href: ((props.link)), target: ("_blank"), ...{ class: ("break-all") }, });
@@ -176,12 +176,14 @@ function __VLS_template() {
         __VLS_styleScopedClasses['lg:text-lg'];
         __VLS_styleScopedClasses['md:text-base'];
         __VLS_styleScopedClasses['text-xs'];
+        __VLS_styleScopedClasses['font-normal'];
         __VLS_styleScopedClasses['text-[#5C5C5C]'];
         __VLS_styleScopedClasses['lg:mb-4'];
         __VLS_styleScopedClasses['mb-2'];
         __VLS_styleScopedClasses['lg:text-lg'];
         __VLS_styleScopedClasses['md:text-base'];
         __VLS_styleScopedClasses['text-xs'];
+        __VLS_styleScopedClasses['font-normal'];
         __VLS_styleScopedClasses['text-[#5C5C5C]'];
         __VLS_styleScopedClasses['lg:mb-4'];
         __VLS_styleScopedClasses['mb-2'];
