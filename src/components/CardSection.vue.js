@@ -28,9 +28,10 @@ function __VLS_template() {
     let __VLS_styleScopedClasses;
     let __VLS_resolvedLocalAndGlobalComponents;
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("xl:px-6 px-2") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("w-auto mx-auto m-10 h-[28px] sm:h-[36px]") }, src: ((__VLS_ctx.sectionTitleUrl)), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("w-auto mx-auto m-10 ") }, ...{ class: ((__VLS_ctx.sectionTitle.includes('text-05') ? 'lg:h-[60px] h-[45px]' : 'h-[28px] sm:h-[36px]')) }, src: ((__VLS_ctx.sectionTitleUrl)), });
+    __VLS_styleScopedClasses = (sectionTitle.includes('text-05') ? 'lg:h-[60px] h-[45px]' : 'h-[28px] sm:h-[36px]');
     // @ts-ignore
-    [sectionTitleUrl,];
+    [sectionTitle, sectionTitleUrl,];
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-wrap justify-center") }, });
     for (const [card, index] of __VLS_getVForSourceType((props.cards))) {
         __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ key: ((index)), ...{ class: ("w-full xl:w-1/2 px-4 mb-6") }, });
@@ -48,8 +49,6 @@ function __VLS_template() {
         __VLS_styleScopedClasses['w-auto'];
         __VLS_styleScopedClasses['mx-auto'];
         __VLS_styleScopedClasses['m-10'];
-        __VLS_styleScopedClasses['h-[28px]'];
-        __VLS_styleScopedClasses['sm:h-[36px]'];
         __VLS_styleScopedClasses['flex'];
         __VLS_styleScopedClasses['flex-wrap'];
         __VLS_styleScopedClasses['justify-center'];
