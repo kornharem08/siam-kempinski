@@ -15,13 +15,6 @@
     <swiper-slide>
       <img
         class="object-cover object-center w-full h-full"
-        :src="aboutMeImageContent3"
-        alt="stats"
-      />
-    </swiper-slide>
-    <swiper-slide>
-      <img
-        class="object-cover object-center w-full h-full"
         :src="aboutMeImageContent4"
         alt="stats"
       />
@@ -59,16 +52,13 @@ import { computed } from "vue";
 
 // Image URLs
 const aboutMeImageContent2 = computed(
-  () => new URL("@/assets/img/Be_Health/01_Autistic Application Series_07.jpg", import.meta.url).href
-);
-const aboutMeImageContent3 = computed(
   () => new URL("@/assets/img/Be_Health/Autistic_Learning Center_02.jpg", import.meta.url).href
-);
-const aboutMeImageContent4 = computed(
-  () => new URL("@/assets/img/Be_Health/01_Autistic Application Series_04.jpg", import.meta.url).href
 );
 const aboutMeImageContent5 = computed(
   () => new URL("@/assets/img/Be_Health/01_Autistic Application Series_05.jpg", import.meta.url).href
+);
+const aboutMeImageContent4 = computed(
+  () => new URL("@/assets/img/Be_Health/01_Autistic Application Series_04.jpg", import.meta.url).href
 );
 const aboutMeImageContent6 = computed(
   () => new URL("@/assets/img/Be_Health/01_Autistic Application Series_06.jpg", import.meta.url).href

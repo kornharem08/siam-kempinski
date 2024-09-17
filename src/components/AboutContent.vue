@@ -13,7 +13,7 @@ function toggleContent() {
 const aboutMeImage = computed(
   () =>
     new URL(
-      "@/assets/img/Be_Health/Autistic_Learning Center_02.jpg",
+      "@/assets/img/Be_Health/01_Autistic Application Series_07.jpg",
       import.meta.url
     ).href
 );

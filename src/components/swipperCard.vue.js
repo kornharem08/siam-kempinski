@@ -5,10 +5,9 @@ const { defineProps, defineSlots, defineEmits, defineExpose, defineModel, define
 register();
 import { computed } from "vue";
 // Image URLs
-const aboutMeImageContent2 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_07.jpg", import.meta.url).href);
-const aboutMeImageContent3 = computed(() => new URL("@/assets/img/Be_Health/Autistic_Learning Center_02.jpg", import.meta.url).href);
-const aboutMeImageContent4 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_04.jpg", import.meta.url).href);
+const aboutMeImageContent2 = computed(() => new URL("@/assets/img/Be_Health/Autistic_Learning Center_02.jpg", import.meta.url).href);
 const aboutMeImageContent5 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_05.jpg", import.meta.url).href);
+const aboutMeImageContent4 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_04.jpg", import.meta.url).href);
 const aboutMeImageContent6 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_06.jpg", import.meta.url).href);
 const aboutMeImageContent7 = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_08.jpg", import.meta.url).href);
 // Swiper event handlers
@@ -100,9 +99,9 @@ function __VLS_template() {
     const __VLS_17 = __VLS_16({}, ...__VLS_functionalComponentArgsRest(__VLS_16));
     ({}({}));
     const __VLS_20 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_15, __VLS_17));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent3)), alt: ("stats"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent4)), alt: ("stats"), });
     // @ts-ignore
-    [aboutMeImageContent3,];
+    [aboutMeImageContent4,];
     __VLS_nonNullable(__VLS_20.slots).default;
     // @ts-ignore
     const __VLS_21 = {}
@@ -120,9 +119,9 @@ function __VLS_template() {
     const __VLS_23 = __VLS_22({}, ...__VLS_functionalComponentArgsRest(__VLS_22));
     ({}({}));
     const __VLS_26 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_21, __VLS_23));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent4)), alt: ("stats"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent5)), alt: ("stats"), });
     // @ts-ignore
-    [aboutMeImageContent4,];
+    [aboutMeImageContent5,];
     __VLS_nonNullable(__VLS_26.slots).default;
     // @ts-ignore
     const __VLS_27 = {}
@@ -140,9 +139,9 @@ function __VLS_template() {
     const __VLS_29 = __VLS_28({}, ...__VLS_functionalComponentArgsRest(__VLS_28));
     ({}({}));
     const __VLS_32 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_27, __VLS_29));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent5)), alt: ("stats"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent6)), alt: ("stats"), });
     // @ts-ignore
-    [aboutMeImageContent5,];
+    [aboutMeImageContent6,];
     __VLS_nonNullable(__VLS_32.slots).default;
     // @ts-ignore
     const __VLS_33 = {}
@@ -160,36 +159,12 @@ function __VLS_template() {
     const __VLS_35 = __VLS_34({}, ...__VLS_functionalComponentArgsRest(__VLS_34));
     ({}({}));
     const __VLS_38 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_33, __VLS_35));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent6)), alt: ("stats"), });
-    // @ts-ignore
-    [aboutMeImageContent6,];
-    __VLS_nonNullable(__VLS_38.slots).default;
-    // @ts-ignore
-    const __VLS_39 = {}
-        .SwiperSlide;
-    ({}.SwiperSlide);
-    ({}.SwiperSlide);
-    __VLS_components.SwiperSlide;
-    __VLS_components.swiperSlide;
-    __VLS_components.SwiperSlide;
-    __VLS_components.swiperSlide;
-    // @ts-ignore
-    [SwiperSlide, SwiperSlide,];
-    // @ts-ignore
-    const __VLS_40 = __VLS_asFunctionalComponent(__VLS_39, new __VLS_39({}));
-    const __VLS_41 = __VLS_40({}, ...__VLS_functionalComponentArgsRest(__VLS_40));
-    ({}({}));
-    const __VLS_44 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_39, __VLS_41));
     __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent7)), alt: ("stats"), });
     // @ts-ignore
     [aboutMeImageContent7,];
-    __VLS_nonNullable(__VLS_44.slots).default;
+    __VLS_nonNullable(__VLS_38.slots).default;
     __VLS_nonNullable(__VLS_5.slots).default;
     if (typeof __VLS_styleScopedClasses === 'object' && !Array.isArray(__VLS_styleScopedClasses)) {
-        __VLS_styleScopedClasses['object-cover'];
-        __VLS_styleScopedClasses['object-center'];
-        __VLS_styleScopedClasses['w-full'];
-        __VLS_styleScopedClasses['h-full'];
         __VLS_styleScopedClasses['object-cover'];
         __VLS_styleScopedClasses['object-center'];
         __VLS_styleScopedClasses['w-full'];
@@ -220,9 +195,8 @@ function __VLS_template() {
         setup() {
             return {
                 aboutMeImageContent2: aboutMeImageContent2,
-                aboutMeImageContent3: aboutMeImageContent3,
-                aboutMeImageContent4: aboutMeImageContent4,
                 aboutMeImageContent5: aboutMeImageContent5,
+                aboutMeImageContent4: aboutMeImageContent4,
                 aboutMeImageContent6: aboutMeImageContent6,
                 aboutMeImageContent7: aboutMeImageContent7,
                 onSwiper: onSwiper,

@@ -6,7 +6,7 @@ const isShowAboutContent = ref(false);
 function toggleContent() {
     isShowAboutContent.value = !isShowAboutContent.value;
 }
-const aboutMeImage = computed(() => new URL("@/assets/img/Be_Health/Autistic_Learning Center_02.jpg", import.meta.url).href);
+const aboutMeImage = computed(() => new URL("@/assets/img/Be_Health/01_Autistic Application Series_07.jpg", import.meta.url).href);
 const backgroundImageStyle = computed(() => ({
     backgroundImage: `url(${aboutMeImage.value})`,
     opacity: isShowAboutContent.value ? 0.3 : 1,
