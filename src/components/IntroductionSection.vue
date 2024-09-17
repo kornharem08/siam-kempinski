@@ -29,7 +29,7 @@ import Countdown from "./Countdown.vue";
       Kempinski Hotel Bangkok’s 4th anniversary, we are delighted to present an
       exclusive opportunity to all guests and fervent supporters of Kempinski.
       Join us in making a meaningful impact by participating in our unique
-      silent auction event. Bid for the chance to secure your preferred
+      online auction event. Bid for the chance to secure your preferred
       destinations and hotels while contributing to the invaluable work of the
       Autistic Thai Foundation.
     </div>

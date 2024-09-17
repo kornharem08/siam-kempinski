@@ -10,9 +10,9 @@ export const places = [
         image:
           "@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/01.jpg",
         details:
-          "For a three-night stay in a Duplex Cabana inclusive of Executive Lounge access and breakfast for two persons. Valued at THB 123,585.",
+          "Enjoy a two-night stay in a Duplex Cabana, inclusive of Executive Lounge access and breakfast for two persons, valued at THB 88,275.",
         description:
-          "The exquisite five-star luxury resort-inspired haven in Bangkok, an opulent urban oasis strategically positioned for travellers to immerse themselves in the tapestry of culturally vibrant and bustling city life that defines Bangkok.",
+          "This exquisite five-star luxury resort-inspired haven in Bangkok is an opulent urban oasis, strategically positioned for travellers to immerse themselves in the vibrant and bustling city life that defines Bangkok.",
         link: "https://www.kempinski.com/en/bangkok",
         currentBid: 9999,
         facebookLink:
@@ -50,14 +50,6 @@ export const places = [
             width: 2506,
             height: 1707,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/05.jpg",
-              import.meta.url
-            ).href,
-            width: 2506,
-            height: 1707,
-          },
         ],
       },
       {
@@ -68,9 +60,9 @@ export const places = [
         image:
           "@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/01.jpg",
         details:
-          "For a three-night stay in a Grand Executive inclusive of Executive Lounge access and breakfast for two persons. Valued at THB 121,820.",
+          "Enjoy a two-night stay in a Grand Executive Suite, inclusive of breakfast and Executive Club benefits for two persons, valued at THB 76,505.",
         description:
-          "The five-star hotel in Bangkok, where luxurious rooms, exquisite dining experiences, and a holistic wellness approach seamlessly merge to provide the epitome of luxury and well-being.",
+          "This five-star hotel in Bangkok seamlessly merges luxurious rooms, exquisite dining experiences and a holistic wellness approach to provide the epitome of luxury and well-being.",
         link: "https://www.kempinski.com/en/sindhorn",
         currentBid: 9999,
         facebookLink:
@@ -118,9 +110,9 @@ export const places = [
         image:
           "@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/01.jpg",
         details:
-          "For a three-night stay in a Cliff Private Pool Junior Suite inclusive of Cliff Lounge access and breakfast for two persons.Valued at THB 59,865.",
+          "Enjoy a two-night stay in a Cliff Private Pool Ocean Junior Suite, inclusive of breakfast and Cliff Lounge access for two persons, valued at THB 66,060.",
         description:
-          "Standing atop the majestic cliff of Nusa Dua, with breathtaking views of the Indian Ocean and tropical garden, The Apurva Kempinski Bali offers the epitome of beachfront luxury.",
+          "Standing atop the majestic cliff of Nusa Dua, with breathtaking views of the Indian Ocean and tropical garden, The Apurva Kempinski Bali offers an exquisite beachfront luxury experience.",
         link: "https://www.kempinski.com/en/the-apurva-kempinski-bali",
         currentBid: 9999,
         facebookLink:
@@ -200,9 +192,9 @@ export const places = [
         image:
           "@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/01.jpg",
         details:
-          "For a three-night stay in a Stamford Suite inclusive of breakfast for two persons. Valued at THB 80,378.",
+          "Enjoy a two-night stay in a Stamford Suite, inclusive of breakfast and Executive Lounge access for two persons, valued at THB 66,427.",
         description:
-          " At the heart of an integrated lifestyle hub, this harmonious blend of heritage and modern luxury features Arcade@The Capitol Kempinski, legendary Capitol Theatre, and Capitol Singapore mall.",
+          "Located at the heart of an integrated lifestyle hub, this harmonious blend of heritage and modern luxury features Arcade@The Capitol Kempinski, the legendary Capitol Theatre and Capitol Singapore mall.",
         link: "https://www.kempinski.com/en/the-capitol-singapore",
         currentBid: 9999,
         facebookLink:

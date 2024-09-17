@@ -20,7 +20,7 @@
       each hotel destination.
     </p>
     <p class="lg:text-llg md:text-base text-xs text-white px-6 lg:px-0">
-      This Silent Auction platform is exclusively for bidding purposes and will
+      This Online Auction platform is exclusively for bidding purposes and will
       be conducted live via Siam Kempinski Hotel Bangkok’s Facebook page only.
       After the conclusion of the campaign, we will contact the winner and
       provide details on how to proceed with payment processing. PLEASE DO NOT
