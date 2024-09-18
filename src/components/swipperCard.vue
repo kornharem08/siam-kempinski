@@ -5,17 +5,17 @@
     @swiper="onSwiper"
     @slidechange="onSlideChange"
   >
-    <swiper-slide>
+  <swiper-slide>
       <img
         class="object-cover object-center w-full h-full"
-        :src="aboutMeImageContent2"
+        :src="aboutMeImageContent4"
         alt="stats"
       />
     </swiper-slide>
     <swiper-slide>
       <img
         class="object-cover object-center w-full h-full"
-        :src="aboutMeImageContent4"
+        :src="aboutMeImageContent2"
         alt="stats"
       />
     </swiper-slide>

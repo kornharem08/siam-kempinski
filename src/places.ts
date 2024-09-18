@@ -126,14 +126,14 @@ export const places = [
             width: 2560,
             height: 1707,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/02.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1707,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/02.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1707,
+          // },
           {
             src: new URL(
               "@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/03.jpg",
@@ -166,22 +166,22 @@ export const places = [
             width: 1280,
             height: 962,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/07.jpg",
-              import.meta.url
-            ).href,
-            width: 1280,
-            height: 962,
-          },
-          {
-            src: new URL(
-              "@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/08.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1707,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/07.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 1280,
+          //   height: 962,
+          // },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/08.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1707,
+          // },
         ],
       },
       {
@@ -208,14 +208,14 @@ export const places = [
             width: 1600,
             height: 1081,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/02.jpg",
-              import.meta.url
-            ).href,
-            width: 1600,
-            height: 1081,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/02.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 1600,
+          //   height: 1081,
+          // },
           {
             src: new URL(
               "@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/03.jpg",
@@ -240,14 +240,14 @@ export const places = [
             width: 2560,
             height: 1707,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/06.jpg",
-              import.meta.url
-            ).href,
-            width: 1707,
-            height: 2560,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/06.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 1707,
+          //   height: 2560,
+          // },
           {
             src: new URL(
               "@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/07.jpg",
@@ -378,22 +378,22 @@ export const places = [
             width: 2560,
             height: 1708,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/02.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
-          {
-            src: new URL(
-              "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/03.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/02.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/03.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
           {
             src: new URL(
               "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/04.jpg",
@@ -402,22 +402,22 @@ export const places = [
             width: 2560,
             height: 1708,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/05.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
-          {
-            src: new URL(
-              "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/06.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/05.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/06.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
           {
             src: new URL(
               "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/07.jpg",
@@ -426,14 +426,14 @@ export const places = [
             width: 2560,
             height: 1708,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/08.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/08.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
           {
             src: new URL(
               "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/09.jpg",
@@ -450,14 +450,14 @@ export const places = [
             width: 2560,
             height: 1708,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/11.jpg",
-              import.meta.url
-            ).href,
-            width: 1708,
-            height: 2560,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/11.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 1708,
+          //   height: 2560,
+          // },
         ],
       },
       {
@@ -558,30 +558,30 @@ export const places = [
             width: 2560,
             height: 1708,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/04.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
-          {
-            src: new URL(
-              "@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/05.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
-          {
-            src: new URL(
-              "@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/06.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/04.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/05.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/06.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
           {
             src: new URL(
               "@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/07.jpg",
@@ -739,14 +739,14 @@ export const places = [
             width: 2560,
             height: 1708,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/Palace_Engelberg_Switzerland/06.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Palace_Engelberg_Switzerland/06.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
           {
             src: new URL(
               "@/assets/img/places/Palace_Engelberg_Switzerland/07.jpg",
@@ -755,14 +755,14 @@ export const places = [
             width: 2560,
             height: 1708,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/Palace_Engelberg_Switzerland/08.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Palace_Engelberg_Switzerland/08.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
         ],
       },
     ],
@@ -786,14 +786,14 @@ export const places = [
         facebookLink:
           "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614546797537162",
         dataSource: [
-          {
-            src: new URL(
-              "@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/01.jpg",
-              import.meta.url
-            ).href,
-            width: 2560,
-            height: 1708,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/01.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 2560,
+          //   height: 1708,
+          // },
           {
             src: new URL(
               "@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/02.jpg",
@@ -834,14 +834,14 @@ export const places = [
             width: 1707,
             height: 2560,
           },
-          {
-            src: new URL(
-              "@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/07.jpg",
-              import.meta.url
-            ).href,
-            width: 1707,
-            height: 2560,
-          },
+          // {
+          //   src: new URL(
+          //     "@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/07.jpg",
+          //     import.meta.url
+          //   ).href,
+          //   width: 1707,
+          //   height: 2560,
+          // },
         ],
       },
       {

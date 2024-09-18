@@ -43,28 +43,25 @@ function __VLS_template() {
         [isShowAboutContent, toggleContent,];
         __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("italic underline text-lg text-[#7C7C7C]") }, });
     }
-    if (__VLS_ctx.isShowAboutContent) {
-        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("lg:w-1/2 w-full") }, });
-        if (__VLS_ctx.isShowAboutContent) {
-            // @ts-ignore
-            [swipperCard,];
-            // @ts-ignore
-            const __VLS_0 = __VLS_asFunctionalComponent(swipperCard, new swipperCard({}));
-            const __VLS_1 = __VLS_0({}, ...__VLS_functionalComponentArgsRest(__VLS_0));
-            ({}({}));
-            const __VLS_4 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(swipperCard, __VLS_1));
-            // @ts-ignore
-            [isShowAboutContent, isShowAboutContent,];
-        }
-    }
-    if (__VLS_ctx.isShowAboutContent) {
-        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-col lg:w-1/2 lg:pl-10 space-y-4 xl:pr-8 pr-2 mt-6 lg:mt-0") }, });
-        __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("font-bold lg:text-xl text-lg italic px-6 lg:px-0 text-[#5C5C5C]") }, });
-        // @ts-ignore
-        [isShowAboutContent,];
-        __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0") }, });
-        __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0") }, });
-    }
+    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("lg:w-1/2 w-full") }, });
+    __VLS_directiveFunction(__VLS_ctx.vShow)((__VLS_ctx.isShowAboutContent));
+    // @ts-ignore
+    [swipperCard,];
+    // @ts-ignore
+    const __VLS_0 = __VLS_asFunctionalComponent(swipperCard, new swipperCard({}));
+    const __VLS_1 = __VLS_0({}, ...__VLS_functionalComponentArgsRest(__VLS_0));
+    ({}({}));
+    __VLS_directiveFunction(__VLS_ctx.vShow)((__VLS_ctx.isShowAboutContent));
+    const __VLS_4 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(swipperCard, __VLS_1));
+    // @ts-ignore
+    [isShowAboutContent, isShowAboutContent, vShow, vShow,];
+    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex flex-col lg:w-1/2 lg:pl-10 space-y-4 xl:pr-8 pr-2 mt-6 lg:mt-0") }, });
+    __VLS_directiveFunction(__VLS_ctx.vShow)((__VLS_ctx.isShowAboutContent));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("font-bold lg:text-xl text-lg italic px-6 lg:px-0 text-[#5C5C5C]") }, });
+    // @ts-ignore
+    [isShowAboutContent, vShow,];
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ class: ("xl:text-lg md:text-base text-sm text-[#5C5C5C] px-6 lg:px-0") }, });
     if (typeof __VLS_styleScopedClasses === 'object' && !Array.isArray(__VLS_styleScopedClasses)) {
         __VLS_styleScopedClasses['relative'];
         __VLS_styleScopedClasses['flex'];

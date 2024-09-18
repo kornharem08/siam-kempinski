@@ -79,9 +79,9 @@ function __VLS_template() {
     const __VLS_11 = __VLS_10({}, ...__VLS_functionalComponentArgsRest(__VLS_10));
     ({}({}));
     const __VLS_14 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_9, __VLS_11));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent2)), alt: ("stats"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent4)), alt: ("stats"), });
     // @ts-ignore
-    [breakpoints, onSwiper, onSlideChange, aboutMeImageContent2,];
+    [breakpoints, onSwiper, onSlideChange, aboutMeImageContent4,];
     __VLS_nonNullable(__VLS_14.slots).default;
     // @ts-ignore
     const __VLS_15 = {}
@@ -99,9 +99,9 @@ function __VLS_template() {
     const __VLS_17 = __VLS_16({}, ...__VLS_functionalComponentArgsRest(__VLS_16));
     ({}({}));
     const __VLS_20 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_15, __VLS_17));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent4)), alt: ("stats"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img)({ ...{ class: ("object-cover object-center w-full h-full") }, src: ((__VLS_ctx.aboutMeImageContent2)), alt: ("stats"), });
     // @ts-ignore
-    [aboutMeImageContent4,];
+    [aboutMeImageContent2,];
     __VLS_nonNullable(__VLS_20.slots).default;
     // @ts-ignore
     const __VLS_21 = {}

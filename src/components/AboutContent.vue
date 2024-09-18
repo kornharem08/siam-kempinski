@@ -46,10 +46,10 @@ const backgroundImageStyle = computed(() => ({
       </svg>
       <span class="italic underline text-lg text-[#7C7C7C]">close</span>
     </div>
-    <div class="lg:w-1/2 w-full" v-if="isShowAboutContent">
-      <swipperCard v-if="isShowAboutContent" />
+    <div class="lg:w-1/2 w-full" v-show="isShowAboutContent">
+      <swipperCard v-show="isShowAboutContent" />
     </div>
-    <div class="flex flex-col lg:w-1/2 lg:pl-10 space-y-4 xl:pr-8 pr-2 mt-6 lg:mt-0" v-if="isShowAboutContent">
+    <div class="flex flex-col lg:w-1/2 lg:pl-10 space-y-4 xl:pr-8 pr-2 mt-6 lg:mt-0" v-show="isShowAboutContent">
       <div class="font-bold lg:text-xl text-lg italic px-6 lg:px-0 text-[#5C5C5C]">
         About BE Health
       </div>
