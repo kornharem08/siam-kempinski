@@ -570,7 +570,7 @@ export const places = [
         items: [
             {
                 id: "Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana",
-                posts_id: 614003107591543,
+                posts_id: 842668124725027,
                 title: "Gran Hotel Manzana Kempinski La Habana",
                 country: "Cuba",
                 image: "@/assets/img/places/Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana/01.jpg",
@@ -578,7 +578,7 @@ export const places = [
                 description: "Located in the heart of Havana, near the Malecón, this iconic luxury venue offers modern comfort and impeccable service, making it perfect for a memorable stay in Cuba’s vibrant capital.",
                 link: "https://www.kempinski.com/en/gran-hotel-kempinski-la-habana",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614546797537162",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/842668124725027",
                 dataSource: [
                     // {
                     //   src: new URL(
@@ -633,7 +633,7 @@ export const places = [
                 description: "Two sets of vouchers are available: one will be awarded to the highest bidder, and the second set will be awarded to the second highest bidder. Embark on a captivating journey to discover the treasures of Mexican heritage, where the essence of tradition intertwines seamlessly with timeless elegance and Cancún's finest hospitality.",
                 link: "https://www.kempinski.com/en/hotel-cancun",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614546797537162",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/841279994863840",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Cancun_Mexico_Kempinski_Hotel_Cancun/01.jpg", import.meta.url).href,

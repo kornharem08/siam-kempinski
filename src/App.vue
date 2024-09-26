@@ -10,14 +10,16 @@ import FooterContent from "./components/FooterContent.vue";
 import BackToTop from "./components/BackToTop.vue";
 import { places as initialPlaces } from "./places";
 import axios from "axios";
+import moment from "moment";
 
 interface priceUpdate {
   id: string;
   updatedPrice: number;
 }
+// const userTimeZone = ref(Intl.DateTimeFormat().resolvedOptions().timeZone);
 const endTime = '2024-10-17T23:59:59+07:00';
 const places = ref([...initialPlaces]); // Make places reactive
-
+const endDate = moment.tz(endTime, 'Asia/Bangkok');
 
 let interval: ReturnType<typeof setInterval>;
 
@@ -26,10 +28,11 @@ onMounted(() => {
   interval = setInterval(updatePrice, 15000); // Update every second
 });
 function updatePrice() {
-  const currentTime = new Date().toISOString();
-  
-  if (currentTime > endTime) {
-    clearInterval(interval); // Stop the interval if current time exceeds endTime
+  const now = moment.tz(new Date(), 'Asia/Bangkok');
+
+  // Check if the current time has passed the end time
+  if (now.isAfter(endDate)) {
+    clearInterval(interval); // Stop the interval if the current time exceeds endTime
     console.log('API calls stopped as the current time exceeded the end time.');
     return;
   }

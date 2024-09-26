@@ -772,7 +772,7 @@ export const places = [
     items: [
       {
         id: "Havana_Cuba_Grand_Hotel_Manzana_Kempinski_La_Habana",
-        posts_id: 614003107591543,
+        posts_id: 842668124725027,
         title: "Gran Hotel Manzana Kempinski La Habana",
         country: "Cuba",
         image:
@@ -784,7 +784,7 @@ export const places = [
         link: "https://www.kempinski.com/en/gran-hotel-kempinski-la-habana",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614546797537162",
+          "https://www.facebook.com/605197575138751/posts/842668124725027",
         dataSource: [
           // {
           //   src: new URL(
@@ -858,7 +858,7 @@ export const places = [
         link: "https://www.kempinski.com/en/hotel-cancun",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614546797537162",
+          "https://www.facebook.com/605197575138751/posts/841279994863840",
         dataSource: [
           {
             src: new URL(
