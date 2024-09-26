@@ -4,7 +4,7 @@ export const places = [
     items: [
       {
         id: "siam_bangkok",
-        posts_id: 614003107591531,
+        posts_id: 826181396373700,
         title: "Siam Kempinski Hotel Bangkok",
         country: "Thailand",
         image:
@@ -16,7 +16,7 @@ export const places = [
         link: "https://www.kempinski.com/en/bangkok",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614003107591531",
+          "https://www.facebook.com/605197575138751/posts/826181396373700",
         dataSource: [
           {
             src: new URL(
@@ -54,7 +54,7 @@ export const places = [
       },
       {
         id: "sindhorn_bangkok",
-        posts_id: 614003107591532,
+        posts_id: 824263403232166,
         title: "Sindhorn Kempinski Hotel Bangkok",
         country: "Thailand",
         image:
@@ -66,7 +66,7 @@ export const places = [
         link: "https://www.kempinski.com/en/sindhorn",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
+          "https://www.facebook.com/605197575138751/posts/824263403232166",
         dataSource: [
           {
             src: new URL(
@@ -104,7 +104,7 @@ export const places = [
       },
       {
         id: "apurva-bali_indonesia",
-        posts_id: 614003107591533,
+        posts_id: 828791042779402,
         title: "The Apurva Kempinski Bali",
         country: "Indonesia",
         image:
@@ -116,7 +116,7 @@ export const places = [
         link: "https://www.kempinski.com/en/the-apurva-kempinski-bali",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614522447539597",
+          "https://www.facebook.com/605197575138751/posts/828791042779402",
         dataSource: [
           {
             src: new URL(
@@ -186,7 +186,7 @@ export const places = [
       },
       {
         id: "capital_singapore",
-        posts_id: 614003107591534,
+        posts_id: 827483632910143,
         title: "The Capitol Kempinski Hotel",
         country: "Singapore",
         image:
@@ -198,7 +198,7 @@ export const places = [
         link: "https://www.kempinski.com/en/the-capitol-singapore",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614524694206039",
+          "https://www.facebook.com/605197575138751/posts/827483632910143",
         dataSource: [
           {
             src: new URL(
@@ -260,7 +260,7 @@ export const places = [
       },
       {
         id: "grand_kempinski_shanghai",
-        posts_id: 614003107591535,
+        posts_id: 830103505981489,
         title: "Grand Kempinski Hotel Shanghai",
         country: "China",
         image:
@@ -272,7 +272,7 @@ export const places = [
         link: "https://www.kempinski.com/en/grand-kempinski-hotel-shanghai",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
+          "https://www.facebook.com/605197575138751/posts/830103505981489",
         dataSource: [
           {
             src: new URL(
@@ -302,7 +302,7 @@ export const places = [
       },
       {
         id: "hangzhou_China",
-        posts_id: 614003107591536,
+        posts_id: 831406759184497,
         title: "Kempinski Hotel Hangzhou",
         country: "China",
         image: "@/assets/img/places/Hangzhou_China/01.jpg",
@@ -313,7 +313,7 @@ export const places = [
         link: "https://www.kempinski.com/en/hotel-hangzhou",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
+          "https://www.facebook.com/605197575138751/posts/831406759184497",
         dataSource: [
           {
             src: new URL(
@@ -356,7 +356,7 @@ export const places = [
     items: [
       {
         id: "St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz",
-        posts_id: 614003107591537,
+        posts_id: 832703339054839,
         title: "Grand Hotel Des Bains Kempinski St. Moritz",
         country: "Switzerland",
         image:
@@ -368,7 +368,7 @@ export const places = [
         link: "https://www.kempinski.com/en/grand-hotel-des-bains",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+          "https://www.facebook.com/605197575138751/posts/832703339054839",
         dataSource: [
           {
             src: new URL(
@@ -462,7 +462,7 @@ export const places = [
       },
       {
         id: "berlin_germany_hotel_adlon_kempinski_berlin",
-        posts_id: 614003107591538,
+        posts_id: 834054018919771,
         title: "Hotel Adlon Kempinski Berlin",
         country: "Germany",
         image:
@@ -474,7 +474,7 @@ export const places = [
         link: "https://www.kempinski.com/en/hotel-adlon",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+          "https://www.facebook.com/605197575138751/posts/834054018919771",
         dataSource: [
           {
             src: new URL(
@@ -512,7 +512,7 @@ export const places = [
       },
       {
         id: "dresden_germany_hotel_taschenbergpalais_kempinski_dresden",
-        posts_id: 614003107591539,
+        posts_id: 838339768491196,
         title: "Hotel Taschenbergpalais Kempinski Dresden",
         country: "Germany",
         image:
@@ -524,7 +524,7 @@ export const places = [
         link: "https://www.kempinski.com/en/hotel-taschenbergpalais",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+          "https://www.facebook.com/605197575138751/posts/838339768491196",
         dataSource: [
           {
             src: new URL(
@@ -594,7 +594,7 @@ export const places = [
       },
       {
         id: "muchen_germany_hotel_vier_jahreszeiten_kempinski_munchen",
-        posts_id: 614003107591540,
+        posts_id: 835468968778276,
         title: "Hotel Vier Jahreszeiten Kempinski München",
         country: "Germany",
         image:
@@ -606,7 +606,7 @@ export const places = [
         link: "https://www.kempinski.com/en/hotel-vier-jahreszeiten",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+          "https://www.facebook.com/605197575138751/posts/835468968778276",
         dataSource: [
           {
             src: new URL(
@@ -636,7 +636,7 @@ export const places = [
       },
       {
         id: "Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest",
-        posts_id: 614003107591541,
+        posts_id: 839064691752037,
         title: "Kempinski Hotel Corvinus Budapest",
         country: "Hungary",
         image:
@@ -648,7 +648,7 @@ export const places = [
         link: "https://www.kempinski.com/en/hotel-corvinus-budapest",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+          "https://www.facebook.com/605197575138751/posts/839064691752037",
         dataSource: [
           {
             src: new URL(
@@ -686,7 +686,7 @@ export const places = [
       },
       {
         id: "Palace_Engelberg_Switzerland",
-        posts_id: 614003107591542,
+        posts_id: 836929638632209,
         title: "Kempinski Palace Engelberg Titlis Swiss Alps",
         country: "Switzerland",
         image: "@/assets/img/places/Palace_Engelberg_Switzerland/01.jpg",
@@ -697,7 +697,7 @@ export const places = [
         link: "https://www.kempinski.com/en/kempinski-palace-engelberg",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+          "https://www.facebook.com/605197575138751/posts/836929638632209",
         dataSource: [
           {
             src: new URL(
@@ -846,7 +846,7 @@ export const places = [
       },
       {
         id: "Cancun_Mexico_Kempinski_Hotel_Cancun",
-        posts_id: 614003107591544,
+        posts_id: 841279994863840,
         title: "Hotel Kempinski Cancun",
         country: "Mexico",
         image:
@@ -893,7 +893,7 @@ export const places = [
     items: [
       {
         id: "marsa_malaz_empinski",
-        posts_id: 614003107591545,
+        posts_id: 839803861678120,
         title: "Marsa Malaz Kempinski The Pearl Doha",
         country: "Qatar",
         image:
@@ -905,7 +905,7 @@ export const places = [
         link: "https://www.kempinski.com/en/marsa-malaz-kempinski-the-pearl-doha",
         currentBid: 9999,
         facebookLink:
-          "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+          "https://www.facebook.com/605197575138751/posts/839803861678120",
         dataSource: [
           {
             src: new URL(

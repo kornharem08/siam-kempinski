@@ -4,7 +4,7 @@ export const places = [
         items: [
             {
                 id: "siam_bangkok",
-                posts_id: 614003107591531,
+                posts_id: 826181396373700,
                 title: "Siam Kempinski Hotel Bangkok",
                 country: "Thailand",
                 image: "@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/01.jpg",
@@ -12,7 +12,7 @@ export const places = [
                 description: "This exquisite five-star luxury resort-inspired haven in Bangkok is an opulent urban oasis, strategically positioned for travellers to immerse themselves in the vibrant and bustling city life that defines Bangkok.",
                 link: "https://www.kempinski.com/en/bangkok",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614003107591531",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/826181396373700",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Siam_Kempinski_Hotel_Bangkok_Thailand/01.jpg", import.meta.url).href,
@@ -38,7 +38,7 @@ export const places = [
             },
             {
                 id: "sindhorn_bangkok",
-                posts_id: 614003107591532,
+                posts_id: 824263403232166,
                 title: "Sindhorn Kempinski Hotel Bangkok",
                 country: "Thailand",
                 image: "@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/01.jpg",
@@ -46,7 +46,7 @@ export const places = [
                 description: "This five-star hotel in Bangkok seamlessly merges luxurious rooms, exquisite dining experiences and a holistic wellness approach to provide the epitome of luxury and well-being.",
                 link: "https://www.kempinski.com/en/sindhorn",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/824263403232166",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Sindhorn_Kempinski_Hotel_Bangkok_Thailand/01.jpg", import.meta.url).href,
@@ -72,7 +72,7 @@ export const places = [
             },
             {
                 id: "apurva-bali_indonesia",
-                posts_id: 614003107591533,
+                posts_id: 828791042779402,
                 title: "The Apurva Kempinski Bali",
                 country: "Indonesia",
                 image: "@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/01.jpg",
@@ -80,7 +80,7 @@ export const places = [
                 description: "Standing atop the majestic cliff of Nusa Dua, with breathtaking views of the Indian Ocean and tropical garden, The Apurva Kempinski Bali offers an exquisite beachfront luxury experience.",
                 link: "https://www.kempinski.com/en/the-apurva-kempinski-bali",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614522447539597",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/828791042779402",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Bali_Indonesia_The_Apurva_Kempinski_Bali/01.jpg", import.meta.url).href,
@@ -135,7 +135,7 @@ export const places = [
             },
             {
                 id: "capital_singapore",
-                posts_id: 614003107591534,
+                posts_id: 827483632910143,
                 title: "The Capitol Kempinski Hotel",
                 country: "Singapore",
                 image: "@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/01.jpg",
@@ -143,7 +143,7 @@ export const places = [
                 description: "Located at the heart of an integrated lifestyle hub, this harmonious blend of heritage and modern luxury features Arcade@The Capitol Kempinski, the legendary Capitol Theatre and Capitol Singapore mall.",
                 link: "https://www.kempinski.com/en/the-capitol-singapore",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614524694206039",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/827483632910143",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Singapore_The_Capitol_Kempinski_Hotel_Singapore/01.jpg", import.meta.url).href,
@@ -190,7 +190,7 @@ export const places = [
             },
             {
                 id: "grand_kempinski_shanghai",
-                posts_id: 614003107591535,
+                posts_id: 830103505981489,
                 title: "Grand Kempinski Hotel Shanghai",
                 country: "China",
                 image: "@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/01.jpg",
@@ -198,7 +198,7 @@ export const places = [
                 description: "Grand Kempinski Hotel Shanghai is an ideal base for exploring the vibrant city of Shanghai, with stunning skyline views and easy access to the city’s top attractions.",
                 link: "https://www.kempinski.com/en/grand-kempinski-hotel-shanghai",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/830103505981489",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Shanghai_China_Grand_Kempinski_Hotel_Shanghai/01.jpg", import.meta.url).href,
@@ -219,7 +219,7 @@ export const places = [
             },
             {
                 id: "hangzhou_China",
-                posts_id: 614003107591536,
+                posts_id: 831406759184497,
                 title: "Kempinski Hotel Hangzhou",
                 country: "China",
                 image: "@/assets/img/places/Hangzhou_China/01.jpg",
@@ -227,7 +227,7 @@ export const places = [
                 description: "Inspired by the Grand Canal’s rich history, Hangzhou offers an exclusive lifestyle with signature dining, exceptional design, and prime access to shopping, historic sites and the iconic Gongchen Bridge. ",
                 link: "https://www.kempinski.com/en/hotel-hangzhou",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614648437526998",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/831406759184497",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Hangzhou_China/01.jpg", import.meta.url).href,
@@ -258,7 +258,7 @@ export const places = [
         items: [
             {
                 id: "St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz",
-                posts_id: 614003107591537,
+                posts_id: 832703339054839,
                 title: "Grand Hotel Des Bains Kempinski St. Moritz",
                 country: "Switzerland",
                 image: "@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/01.jpg",
@@ -266,7 +266,7 @@ export const places = [
                 description: "Nestled in a historic 19th-century building, this resort offers timeless European luxury at the base of the cable car, providing unparalleled access to skiing and hiking in the tranquil Swiss Alps.",
                 link: "https://www.kempinski.com/en/grand-hotel-des-bains",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/832703339054839",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/St_Moritz_Switzerland_Grand_Hotel_Des_Bains_Kempinski_St_Moritz/01.jpg", import.meta.url).href,
@@ -345,7 +345,7 @@ export const places = [
             },
             {
                 id: "berlin_germany_hotel_adlon_kempinski_berlin",
-                posts_id: 614003107591538,
+                posts_id: 834054018919771,
                 title: "Hotel Adlon Kempinski Berlin",
                 country: "Germany",
                 image: "@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/01.jpg",
@@ -353,7 +353,7 @@ export const places = [
                 description: "In the heart of Berlin, facing the Brandenburg Gate and only a few steps from the government district, you will find the legendary five-star luxury Hotel Adlon Kempinski Berlin. ",
                 link: "https://www.kempinski.com/en/hotel-adlon",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/834054018919771",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Berlin_Germany_Hotel_Adlon_Kempinski_Berlin/01.jpg", import.meta.url).href,
@@ -379,7 +379,7 @@ export const places = [
             },
             {
                 id: "dresden_germany_hotel_taschenbergpalais_kempinski_dresden",
-                posts_id: 614003107591539,
+                posts_id: 838339768491196,
                 title: "Hotel Taschenbergpalais Kempinski Dresden",
                 country: "Germany",
                 image: "@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/01.jpg",
@@ -387,7 +387,7 @@ export const places = [
                 description: "Experience opulent Saxon Baroque architecture at Taschenbergpalais, a five-star hotel in Dresden, Germany, which is located near iconic landmarks such as the Zwinger Palace and Semper Opera House.",
                 link: "https://www.kempinski.com/en/hotel-taschenbergpalais",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/838339768491196",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Dresden_Germany_Hotel_Taschenbergpalais_Kempinski_Dresden/01.jpg", import.meta.url).href,
@@ -442,7 +442,7 @@ export const places = [
             },
             {
                 id: "muchen_germany_hotel_vier_jahreszeiten_kempinski_munchen",
-                posts_id: 614003107591540,
+                posts_id: 835468968778276,
                 title: "Hotel Vier Jahreszeiten Kempinski München",
                 country: "Germany",
                 image: "@/assets/img/places/Muchen_Germany_Hotel_Vier_Jahreszeiten_Kempinski_München/01.jpg",
@@ -450,7 +450,7 @@ export const places = [
                 description: "Experience royal Bavarian flair during your city break or business trip by staying directly at Munich's most exclusive street: Maximilianstraße.",
                 link: "https://www.kempinski.com/en/hotel-vier-jahreszeiten",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/835468968778276",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Muchen_Germany_Hotel_Vier_Jahreszeiten_Kempinski_München/01.jpg", import.meta.url).href,
@@ -471,7 +471,7 @@ export const places = [
             },
             {
                 id: "Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest",
-                posts_id: 614003107591541,
+                posts_id: 839064691752037,
                 title: "Kempinski Hotel Corvinus Budapest",
                 country: "Hungary",
                 image: "@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/01.jpg",
@@ -479,7 +479,7 @@ export const places = [
                 description: "This modern luxury getaway in Budapest is perfectly positioned by Erzsébet Park and Fashion Street—your ideal base to explore the city's rich history, just steps away.",
                 link: "https://www.kempinski.com/en/hotel-corvinus-budapest",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/839064691752037",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Budapest_Hungary_Kempinski_Hotel_Corvinus_Budapest/01.jpg", import.meta.url).href,
@@ -505,7 +505,7 @@ export const places = [
             },
             {
                 id: "Palace_Engelberg_Switzerland",
-                posts_id: 614003107591542,
+                posts_id: 836929638632209,
                 title: "Kempinski Palace Engelberg Titlis Swiss Alps",
                 country: "Switzerland",
                 image: "@/assets/img/places/Palace_Engelberg_Switzerland/01.jpg",
@@ -513,7 +513,7 @@ export const places = [
                 description: "The Kempinski Palace Engelberg Titlis Swiss Alps, the first and only five-star resort in Central Switzerland’s largest winter and summer destination, offers a blend of Belle Époque charm and contemporary luxury.",
                 link: "https://www.kempinski.com/en/kempinski-palace-engelberg",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/836929638632209",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Palace_Engelberg_Switzerland/01.jpg", import.meta.url).href,
@@ -625,7 +625,7 @@ export const places = [
             },
             {
                 id: "Cancun_Mexico_Kempinski_Hotel_Cancun",
-                posts_id: 614003107591544,
+                posts_id: 841279994863840,
                 title: "Hotel Kempinski Cancun",
                 country: "Mexico",
                 image: "@/assets/img/places/Cancun_Mexico_Kempinski_Hotel_Cancun/01.jpg",
@@ -659,7 +659,7 @@ export const places = [
         items: [
             {
                 id: "marsa_malaz_empinski",
-                posts_id: 614003107591545,
+                posts_id: 839803861678120,
                 title: "Marsa Malaz Kempinski The Pearl Doha",
                 country: "Qatar",
                 image: "@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/01.jpg",
@@ -667,7 +667,7 @@ export const places = [
                 description: "Situated on The Pearl, a luxurious man-made island with elegant promenades, stunning marinas and lush landscapes, this is perfect for those looking to explore Qatar in a unique way. ",
                 link: "https://www.kempinski.com/en/marsa-malaz-kempinski-the-pearl-doha",
                 currentBid: 9999,
-                facebookLink: "https://www.facebook.com/SiamKempinskiHotelBangkok/posts/614530964205412",
+                facebookLink: "https://www.facebook.com/605197575138751/posts/839803861678120",
                 dataSource: [
                     {
                         src: new URL("@/assets/img/places/Doha_Qatar_Marsa_Malaz_Kempinski_The_Perl-Doha/01.jpg", import.meta.url).href,

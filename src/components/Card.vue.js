@@ -38,6 +38,9 @@ const startSlideShow = () => {
         currentIndex.value = (currentIndex.value + 1) % props.dataSource.length;
     }, 1000); // change every 2 seconds
 };
+const redirectToBidding = (url) => {
+    window.open(url, '_blank');
+};
 const stopSlideShow = () => {
     if (timer.value) {
         clearInterval(timer.value);
@@ -127,7 +130,11 @@ function __VLS_template() {
     __VLS_elementAsFunction(__VLS_intrinsicElements.span, __VLS_intrinsicElements.span)({ ...{ class: ("block sm:inline") }, });
     (props.currentBid.toLocaleString());
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex w-1/2 lg:justify-start justify-end") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)({ ...{ class: ("bg-[#B4A090] text-white lg:px-6 lg:py-2 px-4 py-2 sm:px-6 sm:py-2 rounded-full lg:text-lg md:text-base text-sm") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)({ ...{ onClick: (...[$event]) => {
+                __VLS_ctx.redirectToBidding(props.facebookLink);
+                // @ts-ignore
+                [redirectToBidding,];
+            } }, ...{ class: ("bg-[#B4A090] text-white lg:px-6 lg:py-2 px-4 py-2 sm:px-6 sm:py-2 rounded-full lg:text-lg md:text-base text-sm") }, });
     if (typeof __VLS_styleScopedClasses === 'object' && !Array.isArray(__VLS_styleScopedClasses)) {
         __VLS_styleScopedClasses['border'];
         __VLS_styleScopedClasses['border-gray-200'];
@@ -242,6 +249,7 @@ function __VLS_template() {
                 images: images,
                 openPhotoSwipe: openPhotoSwipe,
                 startSlideShow: startSlideShow,
+                redirectToBidding: redirectToBidding,
                 stopSlideShow: stopSlideShow,
             };
         },

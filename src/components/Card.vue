@@ -45,6 +45,10 @@ const startSlideShow = () => {
   }, 1000); // change every 2 seconds
 };
 
+const redirectToBidding = (url) => {
+  window.open(url, '_blank');
+}
+
 const stopSlideShow = () => {
   if (timer.value) {
     clearInterval(timer.value);
@@ -117,6 +121,7 @@ onBeforeUnmount(() => {
         </div>
         <div class="flex w-1/2 lg:justify-start justify-end">
           <button
+          @click="redirectToBidding(props.facebookLink)"
             class="bg-[#B4A090] text-white lg:px-6 lg:py-2 px-4 py-2 sm:px-6 sm:py-2 rounded-full lg:text-lg md:text-base text-sm"
           >
             Join Bidding
